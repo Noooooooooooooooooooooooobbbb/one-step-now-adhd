@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Step Now: ADHD focus tools to break any task into tiny steps</title>
+<meta name="description" content="A free focus kit for ADHD brains. Type a task and get tiny steps, see only the next one, and make time visible with a visual timer. Works offline, nothing is sent anywhere.">
+<link rel="canonical" href="https://one-step-now-adhd.netlify.app/">
+<link rel="alternate" hreflang="en" href="https://one-step-now-adhd.netlify.app/">
+<link rel="alternate" hreflang="es" href="https://one-step-now-adhd.netlify.app/es/">
+<link rel="alternate" hreflang="fr" href="https://one-step-now-adhd.netlify.app/fr/">
+<link rel="alternate" hreflang="pt" href="https://one-step-now-adhd.netlify.app/pt/">
+<link rel="alternate" hreflang="de" href="https://one-step-now-adhd.netlify.app/de/">
+<link rel="alternate" hreflang="it" href="https://one-step-now-adhd.netlify.app/it/">
+<link rel="alternate" hreflang="cs" href="https://one-step-now-adhd.netlify.app/cs/">
+<link rel="alternate" hreflang="ru" href="https://one-step-now-adhd.netlify.app/ru/">
+<link rel="alternate" hreflang="zh-Hans" href="https://one-step-now-adhd.netlify.app/zh/">
+<link rel="alternate" hreflang="x-default" href="https://one-step-now-adhd.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="One Step Now: ADHD focus tools to break any task into tiny steps">
+<meta property="og:description" content="A free focus kit for ADHD brains. Type a task and get tiny steps, see only the next one, and make time visible with a visual timer. Works offline, nothing is sent anywhere.">
+<meta property="og:url" content="https://one-step-now-adhd.netlify.app/">
+<meta property="og:site_name" content="One Step Now">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#1b2233">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&amp;family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+
+</head>
+<body>
+<div class="wrap">
+<a class="skip" href="#main">Skip to content</a>
+<div class="offer" id="langOffer" hidden><a id="langOfferLink" href="#"></a><button type="button" id="langOfferX" aria-label="Dismiss">×</button></div>
+<nav class="topnav" aria-label="One Step Now">
+  <a class="brand" href="/">One Step Now</a>
+  <span class="navlinks">
+    <a href="/" aria-current="page">Home</a>
+    <a href="/contact">Contact</a>
+    <details class="lang" id="langMenu">
+      <summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.800 0 18M12 3c-3 3.200-3 14.800 0 18"/></svg><span class="vh">Language: </span>English</summary>
+      <ul><li><a href="/" lang="en" hreflang="en" aria-current="true">English</a></li><li><a href="/es/" lang="es" hreflang="es">Español</a></li><li><a href="/fr/" lang="fr" hreflang="fr">Français</a></li><li><a href="/pt/" lang="pt" hreflang="pt">Português</a></li><li><a href="/de/" lang="de" hreflang="de">Deutsch</a></li><li><a href="/it/" lang="it" hreflang="it">Italiano</a></li><li><a href="/cs/" lang="cs" hreflang="cs">Čeština</a></li><li><a href="/ru/" lang="ru" hreflang="ru">Русский</a></li><li><a href="/zh/" lang="zh-Hans" hreflang="zh-Hans">中文</a></li></ul>
+    </details>
+  </span>
+</nav>
+
+  <main id="main">
+  <header class="hero">
+    <span class="eyebrow">A focus kit for ADHD brains</span>
+    <h1>Forget the whole mountain. <span class="mark">Do one step now.</span></h1>
+    <p class="lede">Break a task into tiny steps, see only the one in front of you, and make time visible. Everything stays in this browser; nothing is sent anywhere.</p>
+  </header>
+
+  <div class="grid">
+    <div class="col">
+      <section class="panel now" aria-labelledby="now-h">
+        <div class="row between">
+          <span class="eyebrow" id="now-h">Right now</span>
+          <span class="today" id="today"></span>
+        </div>
+        <div class="now-step" id="nowStep" aria-live="polite"></div>
+        <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+        <div class="row">
+          <button class="primary" id="doneBtn" type="button">Done, show the next step</button>
+          <button id="skipBtn" type="button">Skip for now</button>
+        </div>
+        <button class="linkish" id="smallerBtn" type="button" aria-expanded="false" aria-controls="smallerForm">Too big? Add a smaller step first</button>
+        <form class="add" id="smallerForm" hidden>
+          <label for="smallerInput" class="vh">Too big? Add a smaller step first</label>
+          <input type="text" id="smallerInput" placeholder="What&#x27;s the tiniest first move?" autocomplete="off" maxlength="200">
+          <button type="submit">Add</button>
+        </form>
+        <div class="celebrate" id="cheer" aria-live="polite"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="plan-h">
+        <div class="row between">
+          <h2 id="plan-h">Break it down</h2>
+          <button class="small ghost" id="newTask" type="button">Start a new task</button>
+        </div>
+        <label for="taskName" class="eyebrow">The big task</label>
+        <form class="add" id="splitForm">
+          <input type="text" id="taskName" placeholder="e.g. Write a song, or clean my room and call mum" autocomplete="off" maxlength="200">
+          <button type="submit" class="primary" id="splitBtn">Break it down for me</button>
+        </form>
+        <div class="suggest" id="suggest" hidden>
+          <div class="row between">
+            <span class="eyebrow" id="suggestTitle">Suggested steps</span>
+            <span class="tiny">Made on your device. No AI service, nothing sent.</span>
+          </div>
+          <ul class="sugg" id="suggList"></ul>
+          <div class="row" id="suggActions"></div>
+        </div>
+        <p class="hint">Or write your own. Make each step small enough that it feels almost silly. &quot;Open the laptop&quot; counts.</p>
+        <form class="add" id="stepForm">
+          <label for="stepInput" class="vh">New step</label>
+          <input type="text" id="stepInput" placeholder="Add a tiny step, then press Enter" autocomplete="off" maxlength="200">
+          <button type="submit">Add</button>
+        </form>
+        <ol class="steps" id="steps"></ol>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="panel timer" aria-labelledby="timer-h">
+        <h2 id="timer-h">See the time</h2>
+        <div class="dial" id="dial" role="img"></div>
+        <div class="time" id="time">10:00</div>
+        <div class="ends" id="ends" aria-live="polite"></div>
+        <div class="row presets center" id="presets"></div>
+        <form class="row center custom" id="customForm" novalidate>
+          <label for="customMin">Your own minutes</label>
+          <input type="number" id="customMin" min="1" max="180" step="1" inputmode="numeric">
+          <button type="submit" class="small">Set</button>
+        </form>
+        <div class="row center">
+          <button class="primary" id="startBtn" type="button">Start</button>
+          <button id="resetBtn" type="button">Reset</button>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="stuck-h">
+        <h2 id="stuck-h">Can&#x27;t get started?</h2>
+        <p class="starter" id="starter" aria-live="polite">Set the timer for 2 minutes and promise yourself you can stop when it rings.</p>
+        <div><button id="starterBtn" type="button">Give me another way in</button></div>
+      </section>
+
+      <section class="panel" aria-labelledby="dump-h">
+        <h2 id="dump-h">Parking lot</h2>
+        <p class="hint">A thought pulled at you mid-task? Park it here and get back. You can deal with it later.</p>
+        <form class="add" id="dumpForm">
+          <label for="dumpInput" class="vh">Thought to park</label>
+          <input type="text" id="dumpInput" placeholder="Reply to Sam, buy batteries..." autocomplete="off" maxlength="200">
+          <button type="submit">Park</button>
+        </form>
+        <ul class="dump" id="dump"></ul>
+        <div class="row" id="clearRow"></div>
+      </section>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    <p>Automatic steps come from built-in rules for common tasks (cleaning, emails, homework, bills, calls, songs, music practice, stories, art and more) and a general method for anything else. They run in your browser with no AI service, so they work offline and cost nothing.</p>
+    <p>This is a self-help tool, not a diagnosis or treatment. If ADHD is getting in the way of work, school or relationships, a doctor or psychologist can assess you and talk through options. <a href="https://chadd.org/">CHADD</a> (chadd.org) has evidence-based information and support groups.</p>
+    <p><button class="linkish" id="clearData" type="button" data-confirm="Really clear everything? Click again">Clear my data on this device</button></p>
+  </footer>
+  <p class="credit">This site was made by Claude AI, with prompts by Owen. Please get in touch if you see a mistake or would like to improve the site. Thanks ❤️ <a href="/contact">Get in touch</a></p>
+</div>
+<script>window.SITE = {"lang":"en","locale":"en","keys":["onestepnow.v1","onestepnow.v2"],"langs":[{"code":"en","html_lang":"en","offer":"Read this page in English","href":"/"},{"code":"es","html_lang":"es","offer":"Leer esta página en español","href":"/es/"},{"code":"fr","html_lang":"fr","offer":"Lire cette page en français","href":"/fr/"},{"code":"pt","html_lang":"pt","offer":"Ler esta página em português","href":"/pt/"},{"code":"de","html_lang":"de","offer":"Diese Seite auf Deutsch lesen","href":"/de/"},{"code":"it","html_lang":"it","offer":"Leggi questa pagina in italiano","href":"/it/"},{"code":"cs","html_lang":"cs","offer":"Číst tuhle stránku česky","href":"/cs/"},{"code":"ru","html_lang":"ru","offer":"Читать эту страницу на русском","href":"/ru/"},{"code":"zh","html_lang":"zh-Hans","offer":"用中文阅读本页","href":"/zh/"}],"msg":{"err_empty":"Please write a message first.","err_send":"Sorry, that didn't send. Check your connection and try again.","sending":"Sending...","thanks":"/thank-you"}}; window.T = {"title":"One Step Now: ADHD focus tools to break any task into tiny steps","meta_desc":"A free focus kit for ADHD brains. Type a task and get tiny steps, see only the next one, and make time visible with a visual timer. Works offline, nothing is sent anywhere.","eyebrow":"A focus kit for ADHD brains","h1_html":"Forget the whole mountain. <span class=\"mark\">Do one step now.<\/span>","lede":"Break a task into tiny steps, see only the one in front of you, and make time visible. Everything stays in this browser; nothing is sent anywhere.","now_label":"Right now","done_btn":"Done, show the next step","skip_btn":"Skip for now","smaller_btn":"Too big? Add a smaller step first","smaller_ph":"What's the tiniest first move?","today":"Steps done today: {n}","plan_h":"Break it down","new_task":"Start a new task","new_task_confirm":"Clear the steps? Click again","big_task":"The big task","task_ph":"e.g. Write a song, or clean my room and call mum","split_btn":"Break it down for me","sugg_title":"Suggested steps","sugg_title_multi":"Suggested steps · tasks: {n}","sugg_note":"Made on your device. No AI service, nothing sent.","sugg_empty_title":"Type a task first","sugg_empty":"Write what you need to do in the box above, like \"clean my room\", then press the button.","sugg_replace":"Replace my steps with these ({n})","sugg_append":"Add to the end ({n})","sugg_use":"Use these steps ({n})","cancel":"Cancel","own_hint":"Or write your own. Make each step small enough that it feels almost silly. \"Open the laptop\" counts.","step_label":"New step","step_ph":"Add a tiny step, then press Enter","add":"Add","save":"Save","no_steps":"No steps yet. Add the first tiny one above.","now_empty":"Add a tiny first step below.","now_alldone":"All done. Take a real break.","aria_done":"Mark done: {t}","aria_delete":"Delete: {t}","aria_edit":"Edit: {t}","aria_up":"Move up: {t}","aria_down":"Move down: {t}","timer_h":"See the time","preset":"{n} min","custom_label":"Your own minutes","set":"Set","start":"Start","pause":"Pause","resume":"Resume","reset":"Reset","ends_at":"Ends at {time}","times_up":"Time's up. Stretch, then choose: keep going or stop.","time_left":"{time} remaining","stuck_h":"Can't get started?","starter_btn":"Give me another way in","starters":["Set the timer for 2 minutes and promise yourself you can stop when it rings.","Do the step badly on purpose. A messy start beats a perfect plan.","Stand up and walk to where the task happens. That's the whole step.","Say out loud what you're about to do, like you're narrating a cooking show.","Make the first step smaller. Then smaller again.","Text a friend: \"I'm starting now.\" Someone knowing helps.","Put on a song and work only until it ends.","Get a drink of water first, then sit down and open the thing.","Do the most interesting part first. Order is optional.","Work next to someone, in person or on a video call. Having company helps you stay on task."],"cheers":["Nice. That counts.","Done is done.","Momentum!","One less thing.","Look at you go.","Brain: rewarded."],"cheer_added":"Steps added. Just do the first one.","cheer_skip":"Moved to the end. No guilt.","park_h":"Parking lot","park_p":"A thought pulled at you mid-task? Park it here and get back. You can deal with it later.","park_label":"Thought to park","park_ph":"Reply to Sam, buy batteries...","park_btn":"Park","park_empty":"Nothing parked. Your head is clear.","to_step":"Make it a step","clear_all":"Clear all","clear_all_confirm":"Really clear all? Click again","foot_auto":"Automatic steps come from built-in rules for common tasks (cleaning, emails, homework, bills, calls, songs, music practice, stories, art and more) and a general method for anything else. They run in your browser with no AI service, so they work offline and cost nothing.","foot_disclaimer_html":"This is a self-help tool, not a diagnosis or treatment. If ADHD is getting in the way of work, school or relationships, a doctor or psychologist can assess you and talk through options. <a href=\"https://chadd.org/\">CHADD<\/a> (chadd.org) has evidence-based information and support groups.","example_task":"Clean the kitchen (example: edit it or start a new task)","example_steps":["Put on one song I like","Throw away anything that is rubbish","Load the dishwasher, plates first","Wipe the counter next to the sink","Take the bin out"],"example_dump":"Text Mum back about Sunday"};</script>
+<script src="/assets/engine.en.js"></script>
+<script src="/assets/site.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>

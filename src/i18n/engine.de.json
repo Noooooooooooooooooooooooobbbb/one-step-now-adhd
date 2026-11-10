@@ -1,0 +1,662 @@
+{
+ "cjk": false,
+ "leadIns": [
+  "ich muss noch",
+  "ich muss mal",
+  "ich muss endlich",
+  "ich muss unbedingt",
+  "ich muss dringend",
+  "ich muss",
+  "ich müsste mal",
+  "ich müsste",
+  "ich muesste",
+  "ich sollte mal",
+  "ich sollte",
+  "ich will",
+  "ich möchte",
+  "ich moechte",
+  "muss noch",
+  "muss mal",
+  "muss",
+  "müsste",
+  "sollte",
+  "noch",
+  "endlich",
+  "unbedingt",
+  "dringend",
+  "mal",
+  "bitte",
+  "todo:",
+  "to-do:",
+  "to do:"
+ ],
+ "then": [
+  "dann",
+  "und dann",
+  "danach",
+  "und danach",
+  "anschließend",
+  "anschliessend",
+  "und anschließend",
+  "und anschliessend",
+  "außerdem",
+  "ausserdem",
+  "und außerdem",
+  "und ausserdem",
+  "später",
+  "spaeter",
+  "plus"
+ ],
+ "and": [
+  "und",
+  "&"
+ ],
+ "generic": [
+  "Schreib auf, woran du merkst, dass das hier erledigt ist: {task}",
+  "Leg alles, was du brauchst, an einen Ort",
+  "Stell einen Timer auf 10 Minuten",
+  "Fang mit dem leichtesten Stück an",
+  "Mach weiter, bis der Timer klingelt",
+  "Mach 2 Minuten Pause",
+  "Mach den nächsten kleinen Teil",
+  "Schau, was noch fehlt, und schreib Schritte dafür auf",
+  "Bring es zu Ende und räum alles weg"
+ ],
+ "templates": {
+  "shower": {
+   "kw": ["duschen", "abduschen", "unter die dusche", "in die dusche", "bad nehmen", "baden$", "in die wanne", "in die badewanne", "haare waschen"],
+   "steps": [
+    "Leg ein Handtuch und frische Kleidung ins Bad",
+    "Dreh das Wasser auf",
+    "Steig rein",
+    "Wasch dir die Haare",
+    "Wasch deinen Körper",
+    "Dreh das Wasser ab und trockne dich ab",
+    "Zieh dich an"
+   ]
+  },
+  "getready": {
+   "kw": ["mich fertig", "für die arbeit fertig machen", "für die arbeit fertigmachen", "fuer die arbeit fertig machen", "fuer die arbeit fertigmachen", "für die schule fertig machen", "für die schule fertigmachen", "fuer die schule fertig machen", "fuer die schule fertigmachen", "für die uni fertig machen", "für die uni fertigmachen", "fuer die uni fertig machen", "fuer die uni fertigmachen", "fürs bett fertig", "fuers bett fertig", "bettfertig", "anziehen", "zähne putzen", "zaehne putzen", "zähneputzen", "zaehneputzen", "morgenroutine", "abendroutine", "ins bett", "schlafen gehen", "schlafengehen", "aufstehen"],
+   "steps": [
+    "Steh auf und geh ins Bad",
+    "Putz dir die Zähne",
+    "Wasch dich oder geh duschen",
+    "Zieh die Sachen an, die du dir ausgesucht hast",
+    "Nimm Schlüssel, Handy und Geldbeutel",
+    "Schau auf die Uhr"
+   ]
+  },
+  "dishes": {
+   "kw": ["geschirr", "abwasch", "aufwasch", "spülmaschine", "spuelmaschine", "spülen$", "spuelen", "abspül", "abspuel", "abtrocknen", "spüle$", "spuele$", "küche$", "kueche"],
+   "steps": [
+    "Mach einen Song oder Podcast an, den du magst",
+    "Wirf den Müll von den Arbeitsflächen weg",
+    "Kratz Essensreste in den Mülleimer",
+    "Räum zuerst die Teller ein oder spül sie",
+    "Dann die Tassen und Gläser",
+    "Dann das Besteck",
+    "Weich Töpfe und Pfannen in heißem Spülwasser ein",
+    "Wisch die Arbeitsfläche neben der Spüle ab",
+    "Schrubb die eingeweichten Töpfe und Pfannen",
+    "Leere den Mülleimer, wenn er voll ist"
+   ]
+  },
+  "laundry": {
+   "kw": ["wäsche$", "waesche", "wäschekorb", "wäscheberg", "wäscheständer", "bettwäsche", "bettwaesche", "waschmaschine", "trockner", "bügel", "buegel", "klamotten", "kleidung waschen", "kleider waschen", "sachen waschen", "waschgang", "waschtag"],
+   "steps": [
+    "Schnapp dir einen Korb oder eine Tasche",
+    "Sammle Kleidung vom Boden und aus dem Wäschekorb ein",
+    "Trenn dunkle und helle Wäsche",
+    "Gib eine Ladung in die Maschine und Waschmittel dazu",
+    "Drück auf Start und stell dir am Handy einen Timer, bis sie fertig ist",
+    "Wenn es piept, häng die Wäsche auf oder gib sie in den Trockner",
+    "Sobald alles trocken ist, falte zuerst nur die Oberteile oder häng sie auf",
+    "Dann den Rest",
+    "Räum alles in die Schubladen oder den Schrank"
+   ]
+  },
+  "room": {
+   "kw": ["aufräum", "aufraeum", "wegräum", "wegraeum", "zimmer", "wohnzimmer", "schlafzimmer", "kinderzimmer", "arbeitszimmer", "wohnung", "haus$", "hausputz", "wohnungsputz", "schreibtisch", "kleiderschrank", "keller", "garage", "dachboden", "abstellkammer", "ausmist", "aussortier", "entrümpel", "entruempel", "ordnung", "unordnung", "chaos"],
+   "steps": [
+    "Stell einen Timer auf 10 Minuten",
+    "Hol einen Müllsack und einen Korb",
+    "Sammle alles ein, was Müll ist, und wirf es weg",
+    "Leg schmutzige Kleidung und schmutziges Geschirr in den Korb",
+    "Räum eine Fläche komplett frei",
+    "Bring die Sachen von dieser Fläche an ihren Platz",
+    "Such dir noch eine kleine Ecke aus und räum sie frei",
+    "Bring den Korb dorthin, wo er hingehört",
+    "Bring den Müllsack raus",
+    "Halt kurz inne und schau dir an, was du geschafft hast"
+   ]
+  },
+  "bathroom": {
+   "kw": ["bad$", "badezimmer", "badputz", "klo$", "kloputz", "toilette", "wc$", "dusche$", "badewanne", "waschbecken", "fliesen"],
+   "steps": [
+    "Zieh Handschuhe an und hol Putzspray und einen Lappen",
+    "Räum Flaschen und Kram von den Ablagen",
+    "Sprüh Waschbecken, Toilette und Dusche ein",
+    "Wisch das Waschbecken und die Armaturen ab",
+    "Schrubb die Toilette innen und wisch sie dann außen ab",
+    "Spül die Dusche oder Badewanne ab",
+    "Stell die Flaschen zurück",
+    "Häng ein frisches Handtuch auf"
+   ]
+  },
+  "vacuum": {
+   "kw": ["saug", "staubsaug", "durchsaug", "wisch", "durchwisch", "mopp", "fegen", "kehren$", "kehrwoche", "boden$", "fußboden", "fussboden",
+    "zimmer saugen", "zimmer staubsaugen", "zimmer wischen", "zimmer durchsaugen",
+    "wohnzimmer saugen", "wohnzimmer staubsaugen", "wohnzimmer wischen",
+    "schlafzimmer saugen", "schlafzimmer staubsaugen", "schlafzimmer wischen",
+    "kinderzimmer saugen", "kinderzimmer staubsaugen", "kinderzimmer wischen",
+    "arbeitszimmer saugen", "arbeitszimmer staubsaugen",
+    "wohnung saugen", "wohnung staubsaugen", "wohnung wischen", "wohnung durchsaugen",
+    "haus saugen", "haus staubsaugen", "haus wischen",
+    "küche wischen", "küche saugen", "küche fegen", "kueche wischen", "kueche saugen",
+    "bad wischen", "bad saugen", "keller fegen", "garage fegen"],
+   "steps": [
+    "Hol Staubsauger, Wischmopp oder Besen raus",
+    "Heb auf, was auf dem Boden liegt",
+    "Fang in der hintersten Ecke eines Zimmers an",
+    "Arbeite dich zur Tür vor",
+    "Mach das nächste Zimmer genauso",
+    "Leere den Staubsauger oder spül den Wischmopp aus",
+    "Räum alles weg"
+   ]
+  },
+  "email": {
+   "kw": ["mail$", "mails$", "mailen$", "e-mail", "email", "posteingang", "postfach", "inbox"],
+   "steps": [
+    "Öffne dein Postfach und sonst nichts",
+    "Stell einen Timer auf 15 Minuten",
+    "Lösch oder archiviere alles, was du nicht brauchst",
+    "Markiere die Mails, die eine Antwort brauchen",
+    "Beantworte zuerst die schnellste, in zwei oder drei Sätzen",
+    "Beantworte die nächste markierte Mail",
+    "Notier dir, welche mehr Zeit brauchen",
+    "Schließ das Postfach, wenn der Timer klingelt"
+   ]
+  },
+  "message": {
+   "kw": ["nachricht", "whatsapp", "sms$", "antwort", "zurückschreib", "zurueckschreib", "zurückmeld", "zurueckmeld", "chat$", "chats$", "telegram", "signal$", "sprachnachricht", "dm$", "dms$", "simsen", "texten$"],
+   "steps": [
+    "Öffne den Chat",
+    "Lies die letzte Nachricht einmal",
+    "Tipp einen kurzen Entwurf, er muss nicht perfekt sein",
+    "Lies ihn einmal durch",
+    "Drück auf Senden",
+    "Schließ die App"
+   ]
+  },
+  "call": {
+   "kw": ["termin", "arzt", "zahnarzt", "hausarzt", "tierarzt", "augenarzt", "kinderarzt", "frauenarzt", "hautarzt", "doktor", "praxis", "sprechstunde", "vorsorge", "impf", "physio", "therapeut", "zahnreinigung", "friseur", "frisör", "frisoer", "coiffeur", "haarschnitt", "haare schneiden", "optiker"],
+   "steps": [
+    "Such die Telefonnummer oder die Buchungsseite heraus",
+    "Schreib in einem Satz auf, was du sagen willst",
+    "Öffne deinen Kalender für mögliche Termine",
+    "Leg bereit, wonach gefragt wird (Ausweis, Versichertenkarte oder Kundennummer)",
+    "Wähl die Nummer oder starte die Buchung",
+    "Sag deinen einen Satz",
+    "Schreib Datum, Uhrzeit oder Ergebnis auf",
+    "Trag es in deinen Kalender ein"
+   ]
+  },
+  "phonecall": {
+   "kw": ["anruf", "anzuruf", "telefon", "zurückruf", "zurueckruf", "rückruf", "rueckruf", "ruf$", "rufe$", "durchklingeln", "anklingeln", "hotline"],
+   "steps": [
+    "Such die Nummer heraus",
+    "Schreib in einem Satz auf, warum du anrufst",
+    "Leg Kalender und nötige Nummern (z. B. Kundennummer) bereit",
+    "Wähl die Nummer",
+    "Sag deinen einen Satz",
+    "Schreib auf, was ihr vereinbart habt"
+   ]
+  },
+  "essay": {
+   "kw": ["aufsatz", "essay", "hausarbeit$", "seminararbeit", "bachelorarbeit", "masterarbeit", "abschlussarbeit", "facharbeit", "diplomarbeit", "maturaarbeit", "doktorarbeit", "dissertation", "thesis", "vwa$", "bericht", "praktikumsbericht", "projektbericht", "abschlussbericht", "erörterung", "eroerterung", "anschreiben", "motivationsschreiben", "rede$", "protokoll", "ausarbeitung"],
+   "steps": [
+    "Öffne ein leeres Dokument und gib ihm einen Titel",
+    "Schreib die Fragestellung oder Aufgabe ganz oben hin",
+    "Schreib 5 Minuten lang alle Ideen als Stichpunkte auf",
+    "Ordne die Stichpunkte in 3 bis 5 Abschnitte",
+    "Schreib zu jedem Abschnitt einen groben Satz",
+    "Bau zuerst den leichtesten Abschnitt aus",
+    "Schreib den nächsten Abschnitt",
+    "Schreib eine kurze Einleitung und einen Schluss",
+    "Lies alles einmal durch und verbessere, was dir auffällt",
+    "Speicher es und gib es ab oder schick es los"
+   ]
+  },
+  "homework": {
+   "kw": ["hausaufgabe", "hausi$", "hausis$", "hausübung", "hausuebung", "ufzgi", "arbeitsblatt", "übungsblatt", "uebungsblatt", "aufgabenblatt", "übungsaufgabe", "uebungsaufgabe", "matheaufgabe", "schulprojekt", "projekt für die schule", "projekt fuer die schule", "abgabe", "einsendeaufgabe"],
+   "steps": [
+    "Finde heraus, was genau bis wann fertig sein muss",
+    "Leg Buch, Laptop oder Arbeitsblatt auf den Schreibtisch",
+    "Lies die Aufgabenstellung einmal durch",
+    "Mach die erste Aufgabe oder den leichtesten Teil",
+    "Mach 2 Minuten Pause",
+    "Mach den nächsten Teil",
+    "Markiere, wo du nicht weiterkommst, und mach weiter",
+    "Kontrolliere deine Antworten",
+    "Gib es ab oder pack es in deine Tasche"
+   ]
+  },
+  "study": {
+   "kw": ["lern", "prüfung", "pruefung", "klausur", "klassenarbeit", "schularbeit", "abi$", "abitur", "matura", "examen", "test$", "mathetest", "vokabel", "karteikarte", "wiederhol", "pauken", "büffeln", "bueffeln", "auswendig", "quiz", "führerscheinprüfung", "fuehrerscheinpruefung", "theorieprüfung", "theoriepruefung", "fahrprüfung", "fahrpruefung"],
+   "steps": [
+    "Such dir ein Thema für diese Lerneinheit aus",
+    "Leg dein Handy in ein anderes Zimmer",
+    "Stell einen Timer auf 20 Minuten",
+    "Überflieg deine Notizen zu dem Thema",
+    "Mach die Notizen zu und schreib auf, was du noch weißt",
+    "Schau nach, was dir gefehlt hat",
+    "Schreib 5 Karteikarten oder Übungsfragen",
+    "Mach 5 Minuten Pause",
+    "Frag dich mit den Karten selbst ab"
+   ]
+  },
+  "read": {
+   "kw": ["lesen$", "weiterlesen", "durchlesen", "vorlesen", "buch$", "seiten$", "kapitel lesen", "roman lesen", "artikel lesen", "lektüre", "lektuere", "ebook", "e-book", "kindle", "zeitung"],
+   "steps": [
+    "Nimm das Buch und leg dein Handy mit dem Display nach unten",
+    "Such die Stelle, an der du aufgehört hast",
+    "Lies nur eine Seite",
+    "Lies noch 10 Minuten weiter",
+    "Leg ein Lesezeichen rein",
+    "Schreib in einem Satz auf, was du gelesen hast"
+   ]
+  },
+  "song": {
+   "kw": ["song", "lied$", "lieder", "liedtext", "lyrics", "strophe", "refrain"],
+   "steps": [
+    "Öffne eine Notiz-App oder nimm ein Notizbuch",
+    "Schreib in einem Satz auf, worum es im Song geht",
+    "Summ etwas oder spiel ein paar Akkorde und nimm eine Sprachnotiz auf",
+    "Nimm die Stelle, die dir am besten gefällt, als Idee für den Refrain",
+    "Schreib einen groben Text für den Refrain, Reime sind kein Muss",
+    "Schreib eine erste Strophe, sie darf chaotisch sein",
+    "Nimm einen groben Durchlauf mit dem Handy auf",
+    "Hör es dir einmal an und notier eine Sache, die du ändern willst",
+    "Speicher es mit einem Titel, auch wenn er nur vorläufig ist"
+   ]
+  },
+  "compose": {
+   "kw": ["kompon", "komposition", "melodie", "beat$", "beats$", "track$", "tracks$", "musik machen", "musik produzieren", "musik schreiben", "musik aufnehmen", "musikstück", "musikstueck", "musikproduktion", "akkordfolge", "partitur", "sinfonie", "instrumental$", "ableton", "garageband", "fl studio", "logic pro", "cubase", "daw$"],
+   "steps": [
+    "Nimm dein Instrument oder öffne dein Musikprogramm und leg ein leeres Projekt an",
+    "Leg Tempo und Tonart fest, egal welche",
+    "Nimm eine Idee von 4 Takten auf oder schreib sie auf",
+    "Lass sie im Loop laufen und füg eine Ebene hinzu (Bass, Akkorde oder Rhythmus)",
+    "Mach eine Variation für einen zweiten Teil",
+    "Bring die Teile in eine Reihenfolge",
+    "Exportiere eine grobe Version oder nimm sie auf",
+    "Hör sie dir einmal an und schreib eine Sache auf, die du verbessern willst",
+    "Speicher das Projekt mit dem heutigen Datum"
+   ]
+  },
+  "instrument": {
+   "kw": ["gitarre", "klavier", "keyboard", "geige", "violine", "bratsche", "cello", "schlagzeug", "ukulele", "bass$", "bassgitarre", "flöte", "floete", "blockflöte", "querflöte", "klarinette", "saxophon", "saxofon", "trompete", "posaune", "harfe", "akkordeon", "orgel", "instrument", "singen$", "gesang", "tonleiter"],
+   "steps": [
+    "Hol das Instrument raus und stell es dorthin, wo du spielst",
+    "Stimm dein Instrument",
+    "Stell einen Timer auf 15 Minuten",
+    "Wärm dich 2 Minuten auf (Tonleitern, Akkorde oder Einsingen)",
+    "Spiel etwas, das du schon kannst und magst",
+    "Such dir einen kniffligen Takt oder eine Technik zum Üben aus",
+    "Spiel die Stelle 5-mal langsam",
+    "Werd ein bisschen schneller",
+    "Spiel zum Schluss etwas, das Spaß macht",
+    "Lass das Instrument dort stehen, wo du es siehst"
+   ]
+  },
+  "fiction": {
+   "kw": ["kurzgeschichte", "geschichte schreiben", "geschichte weiterschreiben", "geschichte fertig", "geschichte ausdenken", "meiner geschichte", "roman$", "romankapitel", "romanprojekt", "novelle", "erzählung", "erzaehlung", "märchen", "maerchen", "krimi", "fanfic", "fanfiction", "fan fiction", "drehbuch", "szene", "kapitel schreiben", "kapitel überarbeiten", "kapitel ueberarbeiten", "plot", "manuskript"],
+   "steps": [
+    "Öffne ein leeres Dokument oder ein Notizbuch",
+    "Schreib in einem Satz auf, wer was will",
+    "Notier, wo und wann die Szene spielt",
+    "Stell einen Timer auf 15 Minuten",
+    "Schreib die Szene schlecht runter, ohne zwischendurch zu überarbeiten",
+    "Hör mitten im Satz auf, wenn der Timer klingelt, dann fällt der Wiedereinstieg leicht",
+    "Mach eine kurze Pause",
+    "Lies es durch und markiere einen Satz, der dir gefällt",
+    "Notier in einem Satz, was als Nächstes passiert",
+    "Speicher die Datei"
+   ]
+  },
+  "poem": {
+   "kw": ["gedicht", "poesie", "lyrik$", "haiku", "sonett", "limerick", "elfchen", "rap$", "raptext", "reim", "dichten$", "poetry slam", "slamtext"],
+   "steps": [
+    "Such dir ein Bild, ein Gefühl oder einen Moment aus, über den du schreibst",
+    "Sammle 10 Wörter, die dazu passen",
+    "Schreib die erste Zeile, ohne sie zu bewerten",
+    "Schreib 5 Minuten lang weitere Zeilen",
+    "Lies es laut vor",
+    "Streich die schwächsten Zeilen",
+    "Such einen Titel aus",
+    "Speicher es"
+   ]
+  },
+  "nonfiction": {
+   "kw": ["blog", "newsletter", "artikel schreiben", "artikel für", "artikel fuer", "artikel fertig", "fachartikel", "zeitungsartikel", "gastbeitrag", "beitrag schreiben", "sachbuch", "sachtext", "memoiren", "biografie", "biographie", "autobiogra", "tagebuch", "rezension", "kolumne", "ratgeber", "leserbrief", "pressemitteilung", "anleitung schreiben"],
+   "steps": [
+    "Schreib die Kernaussage in einem Satz auf",
+    "Schreib alles, was du weißt, als Stichpunkte auf",
+    "Notier, was du noch prüfen oder nachschlagen musst",
+    "Bring die Stichpunkte als Überschriften in eine Reihenfolge",
+    "Schreib zuerst den leichtesten Abschnitt",
+    "Schreib den nächsten Abschnitt",
+    "Ergänz eine kurze Einleitung und einen Schluss",
+    "Prüf die Fakten und füg Quellen hinzu",
+    "Lies alles einmal durch und speicher es"
+   ]
+  },
+  "bookwrite": {
+   "kw": ["buch schreiben", "buch weiterschreiben", "buch fertig schreiben", "buch zu ende schreiben", "an meinem buch", "am buch schreiben", "am buch arbeiten", "am buch weiter", "buchprojekt", "buchmanuskript"],
+   "steps": [
+    "Schreib in einem Satz auf, worum es in dem Buch geht",
+    "Liste die wichtigsten Teile oder Kapitel auf, je eine Zeile",
+    "Such dir ein Kapitel zum Anfangen aus, es muss nicht das erste sein",
+    "Stell einen Timer auf 20 Minuten",
+    "Schreib, ohne zu überarbeiten, bis er klingelt",
+    "Notier, wo du aufgehört hast und wie es weitergeht",
+    "Speicher die Datei unter einem eindeutigen Namen",
+    "Trag deine nächste Schreibzeit in den Kalender ein"
+   ]
+  },
+  "art": {
+   "kw": ["zeichn", "malen$", "ausmalen", "bild malen", "gemälde", "gemaelde", "skizz", "illustr", "kunstwerk", "kunstprojekt", "comic", "kritzel", "doodle", "aquarell", "acryl", "porträt", "portraet", "portrait", "leinwand", "lettering"],
+   "steps": [
+    "Leg Papier, Leinwand oder Tablet und dein Material bereit",
+    "Such dir ein Motiv aus oder zeichne, was vor dir liegt",
+    "Kritzel dich 2 Minuten warm",
+    "Skizziere die großen Formen mit leichtem Strich",
+    "Füg die wichtigsten Details hinzu",
+    "Bring Farbe oder Schattierung rein",
+    "Tritt einen Schritt zurück und such eine Sache, die du anpassen willst",
+    "Signiere und datiere es",
+    "Wasch die Pinsel aus und räum alles weg"
+   ]
+  },
+  "video": {
+   "kw": ["video", "youtube", "vlog", "filmen$", "film drehen", "kurzfilm", "tiktok", "reel$", "reels$", "podcast", "episode", "folge aufnehmen", "animation", "clip$", "clips$"],
+   "steps": [
+    "Schreib in einem Satz auf, worum es geht",
+    "Liste die Einstellungen oder Stichpunkte auf",
+    "Bau Kamera, Handy oder Mikro auf und prüf den Ton",
+    "Nimm die erste Einstellung oder den ersten Punkt auf",
+    "Nimm den Rest auf, eins nach dem anderen",
+    "Importiere die Clips",
+    "Mach einen Rohschnitt",
+    "Füg Titel und Musik hinzu",
+    "Exportiere es und schau oder hör es dir einmal an",
+    "Lad es hoch oder speicher es"
+   ]
+  },
+  "craft": {
+   "kw": ["stricken$", "weiterstricken", "strickzeug", "strickprojekt", "häkel", "haekel", "nähen$", "naehen", "annähen", "annaehen", "nähmaschine", "naehmaschine", "nähprojekt", "sticken$", "stickerei", "bastel", "töpfer", "toepfer", "origami", "quilt", "patchwork", "makramee", "scrapbook", "schnitzen", "holzarbeit", "handarbeit", "diy$"],
+   "steps": [
+    "Hol Material und Anleitung raus",
+    "Mach dir einen Platz mit gutem Licht frei",
+    "Lies den nächsten Teil der Anleitung oder deines Plans",
+    "Stell einen Timer auf 20 Minuten",
+    "Arbeite nur an diesem Teil",
+    "Markiere, wo du aufgehört hast",
+    "Räum Reste und Werkzeug weg"
+   ]
+  },
+  "taxes": {
+   "kw": ["steuer", "lohnsteuer", "einkommensteuer", "umsatzsteuer", "finanzamt", "elster", "finanzonline", "arbeitnehmerveranlagung", "jahresausgleich"],
+   "steps": [
+    "Finde die Abgabefrist heraus und schreib sie auf",
+    "Leg einen Ordner für Steuerunterlagen an",
+    "Sammle Einkommensnachweise (Lohnabrechnungen, Jahresbescheinigungen)",
+    "Sammle Belege für alles, was du absetzen kannst",
+    "Melde dich im Steuerportal oder Steuerprogramm an",
+    "Trag deine persönlichen Daten ein",
+    "Trag dein Einkommen ein",
+    "Trag ein, was du absetzen kannst",
+    "Geh die Zusammenfassung durch",
+    "Schick die Erklärung ab und speicher die Bestätigung"
+   ]
+  },
+  "bills": {
+   "kw": ["rechnung", "stromrechnung", "handyrechnung", "nebenkosten", "miete$", "zahlen$", "bezahl", "überweis", "ueberweis", "dauerauftrag", "mahnung", "strafzettel", "budget", "finanzen", "haushaltsbuch", "banking", "onlinebanking", "konto", "schulden", "buchhaltung"],
+   "steps": [
+    "Öffne deine Banking-App oder die Rechnung",
+    "Liste auf, was fällig ist und bis wann",
+    "Nimm die Rechnung, die zuerst fällig ist",
+    "Bezahl sie",
+    "Speicher die Bestätigung oder mach einen Screenshot",
+    "Mach die nächste",
+    "Richte dir Erinnerungen für künftige Fristen ein"
+   ]
+  },
+  "paperwork": {
+   "kw": ["formular", "papierkram", "unterlagen", "dokument", "papiere$", "antrag", "beantrag", "reisepass", "pass$", "ausweis", "personalausweis", "perso$", "visum", "führerschein", "fuehrerschein", "versicherung", "krankenkasse", "behörde", "behoerde", "amt$", "bürgeramt", "buergeramt", "ummelden", "bürokratie", "buerokratie", "vertrag", "kündig", "kuendig", "ablage"],
+   "steps": [
+    "Such das Formular oder die Website heraus",
+    "Lies nach, welche Unterlagen verlangt werden",
+    "Leg diese Unterlagen an einem Ort zusammen",
+    "Füll die leichten Felder aus (Name, Adresse, Datum)",
+    "Füll den nächsten Abschnitt aus",
+    "Notier Fragen, die du nicht beantworten kannst, und schlag sie nach",
+    "Prüf alles einmal",
+    "Schick es online ab oder bring es zur Post",
+    "Speicher eine Kopie oder die Bestätigung"
+   ]
+  },
+  "job": {
+   "kw": ["bewerb", "initiativbewerbung", "lebenslauf", "cv$", "job", "stelle$", "stellenanzeige", "stellenangebot", "stellensuche", "arbeitssuche", "ausbildungsplatz", "vorstellungsgespräch", "vorstellungsgespraech", "interview", "linkedin", "xing"],
+   "steps": [
+    "Öffne die Stellenanzeige und deinen Lebenslauf nebeneinander",
+    "Markiere die 3 Dinge, die dort am wichtigsten sind",
+    "Pass deinen Lebenslauf an, damit er diese 3 Dinge zeigt",
+    "Schreib ein kurzes Anschreiben mit 3 kurzen Absätzen",
+    "Füll das Bewerbungsformular aus",
+    "Häng deinen Lebenslauf an",
+    "Lies alles einmal durch und schick es ab",
+    "Schreib auf, wann du dich beworben hast"
+   ]
+  },
+  "groceries": {
+   "kw": ["einkauf", "einzukauf", "wocheneinkauf", "großeinkauf", "grosseinkauf", "lebensmittel", "supermarkt", "wochenmarkt", "zum markt", "essen kaufen", "essen einkaufen", "milch$", "brot$", "eier$", "obst", "gemüse", "gemuese", "getränke", "getraenke", "snacks", "aldi$", "lidl$", "rewe$", "edeka", "migros", "billa"],
+   "steps": [
+    "Schau in Kühlschrank und Vorratsschrank",
+    "Schreib auf, was fehlt",
+    "Ergänz, was du für die nächsten Mahlzeiten brauchst",
+    "Nimm Taschen, Schlüssel und Geldbeutel mit oder öffne die Liefer-App",
+    "Hol die Sachen von der Liste",
+    "Bezahl",
+    "Räum zuerst die Kühlsachen ein, dann den Rest"
+   ]
+  },
+  "buy": {
+   "kw": ["kauf", "bestell", "besorg", "shoppen", "anschaff", "zulegen", "geschenk"],
+   "steps": [
+    "Schau nach, ob du es schon hast",
+    "Entscheide, wo du es besorgst",
+    "Leg ein Budget fest",
+    "Such es im Laden oder online",
+    "Kauf es",
+    "Räum es an seinen Platz"
+   ]
+  },
+  "cook": {
+   "kw": ["koch", "vorkochen", "backen$", "kuchen", "torte", "plätzchen", "plaetzchen", "kekse", "muffins", "abendessen", "mittagessen", "frühstück", "fruehstueck", "abendbrot", "znacht", "zmittag", "mahlzeit", "essen machen", "essen vorbereiten", "meal prep", "mealprep", "auflauf", "suppe", "brot backen", "eier kochen", "eier braten", "rezept ausprobieren"],
+   "steps": [
+    "Entscheide, was du kochst",
+    "Prüf, ob du alle Zutaten hast",
+    "Mach Platz auf der Arbeitsfläche",
+    "Hol Töpfe, Pfannen und Küchengeräte raus",
+    "Wasch und schneide die Zutaten",
+    "Fang mit dem an, was am längsten braucht",
+    "Stell dir einen Timer",
+    "Bereite den Rest zu",
+    "Richte das Essen an",
+    "Weich Töpfe und Pfannen ein"
+   ]
+  },
+  "errands": {
+   "kw": ["erledigung", "besorgung", "haushalt", "kommissionen", "sachen erledigen", "dinge erledigen", "kram erledigen", "einiges erledigen", "wege erledigen", "zur post", "paket", "päckchen", "paeckchen", "retoure", "pfand", "altglas", "wertstoffhof"],
+   "steps": [
+    "Schreib alle Erledigungen auf eine Liste",
+    "Bring sie in eine Reihenfolge, die eine Runde ergibt",
+    "Nimm Schlüssel, Geldbeutel, Handy und alles mit, was du abgeben musst",
+    "Mach die erste Erledigung",
+    "Hak sie ab und mach die nächste",
+    "Geh nach Hause und räum alles weg"
+   ]
+  },
+  "exercise": {
+   "kw": ["sport$", "sportkurs", "training", "trainier", "workout", "fitness", "gym$", "jogg", "laufen$", "yoga", "pilates", "spazier", "dehnen", "stretch", "schwimm", "radfahren", "rad fahren", "fahrrad fahren", "radeln", "wander", "bewegung"],
+   "steps": [
+    "Zieh Sportsachen und Schuhe an",
+    "Füll eine Wasserflasche",
+    "Such dir ein kurzes Programm oder eine Strecke aus",
+    "Wärm dich 3 Minuten auf",
+    "Mach den ersten Teil",
+    "Mach weiter bis zum Ende",
+    "Komm langsam runter und dehn dich",
+    "Trink Wasser"
+   ]
+  },
+  "pack": {
+   "kw": ["packen$", "einpack", "zusammenpacken", "koffer", "rucksack", "reisetasche", "sporttasche", "tasche packen", "packliste", "umzug", "umziehen$", "kartons"],
+   "steps": [
+    "Hol die Tasche oder die Kartons raus",
+    "Schreib eine kurze Liste (Kleidung, Waschzeug, Ladekabel, Dokumente)",
+    "Pack zuerst die Kleidung ein",
+    "Pack das Waschzeug ein",
+    "Pack Ladekabel und Elektronik ein",
+    "Steck Ausweis, Tickets oder Schlüssel in ein Fach",
+    "Geh die Liste einmal durch",
+    "Stell die Tasche an die Tür"
+   ]
+  },
+  "presentation": {
+   "kw": ["präsentation", "praesentation", "präsi$", "praesi$", "folien", "slides", "powerpoint", "ppt$", "pptx", "keynote", "pitch", "vortrag", "referat"],
+   "steps": [
+    "Schreib die eine Kernbotschaft in einem Satz auf",
+    "Liste 3 bis 5 Punkte auf, die sie stützen",
+    "Mach pro Punkt eine Folie, erst mal nur mit Überschrift",
+    "Ergänz auf jeder Folie ein paar Wörter oder ein Bild",
+    "Mach eine Titelfolie und eine Schlussfolie",
+    "Üb den Vortrag einmal laut",
+    "Verbessere die Stellen, die holprig waren",
+    "Speicher die Präsentation und verschick sie oder lad sie hoch"
+   ]
+  },
+  "garden": {
+   "kw": ["garten", "rasen$", "rasenmäh", "rasenmaeh", "mähen", "maehen", "unkraut", "jäten", "jaeten", "pflanze", "umtopf", "gießen", "giessen", "beet", "hecke", "laub$", "harken"],
+   "steps": [
+    "Zieh Schuhe und Handschuhe an",
+    "Hol die Geräte raus",
+    "Such dir ein Stück aus, mit dem du anfängst",
+    "Mach dieses Stück fertig",
+    "Geh zum nächsten Stück",
+    "Pack die Abfälle in einen Sack",
+    "Räum die Geräte weg"
+   ]
+  },
+  "car": {
+   "kw": ["werkstatt", "autowerkstatt", "inspektion", "ölwechsel", "oelwechsel", "reifen$", "reifenwechsel", "winterreifen", "sommerreifen", "räderwechsel", "raederwechsel", "tüv$", "tuev$", "hauptuntersuchung", "pickerl", "mfk$", "kfz", "autoversicherung", "autoreparatur", "auto zur", "auto in die"],
+   "steps": [
+    "Such die Fahrzeugpapiere oder die Nummer der Werkstatt heraus",
+    "Entscheide, was gemacht werden muss",
+    "Mach einen Termin aus oder besorg, was du brauchst",
+    "Räum den Müll aus dem Auto",
+    "Erledige es selbst oder bring das Auto hin",
+    "Notier das Datum und wann es wieder fällig ist"
+   ]
+  },
+  "booking": {
+   "kw": ["buchen$", "buche$", "buchung", "reservier", "reservation", "tisch bestellen", "flug$", "flüge$", "fluege$", "hotel", "unterkunft", "ferienwohnung", "airbnb", "mietwagen", "ticket", "zugticket", "bahnticket", "fahrkarte"],
+   "steps": [
+    "Leg Termin und Budget fest",
+    "Öffne zwei Seiten oder Apps zum Vergleichen",
+    "Nimm die Option, die am besten passt",
+    "Gib deine Angaben ein",
+    "Bezahl",
+    "Speicher die Bestätigung",
+    "Trag es in deinen Kalender ein"
+   ]
+  },
+  "fix": {
+   "kw": ["reparier", "reparatur", "flicken", "kaputt", "defekt", "installier", "aufbau", "aufzubau", "zusammenbau", "montier", "einbau", "anbring", "aufhäng", "aufhaeng", "austausch", "auswechsel", "ersetzen", "wechseln$", "abdicht", "bohren"],
+   "steps": [
+    "Schau dir an, was nicht stimmt, und beschreib es in einem Satz",
+    "Such eine Anleitung oder ein Video dazu",
+    "Leg Werkzeug und Teile bereit",
+    "Mach dir Platz zum Arbeiten",
+    "Mach den ersten Schritt der Anleitung",
+    "Mach die nächsten Schritte, einen nach dem anderen",
+    "Teste, ob es funktioniert",
+    "Räum das Werkzeug weg"
+   ]
+  },
+  "plan": {
+   "kw": ["plan", "wochenplan", "essensplan", "zeitplan", "organisier", "vorbereit", "party", "feier", "fest$", "hochzeit", "geburtstag$", "geburtstagsfeier", "geburtstagsparty", "kindergeburtstag", "event", "veranstaltung", "ausflug", "jubiläum", "jubilaeum"],
+   "steps": [
+    "Schreib in einem Satz auf, was du planst",
+    "Leg ein Datum oder eine Frist fest",
+    "Liste alles auf, was passieren muss",
+    "Bring die Liste in eine Reihenfolge",
+    "Erledige den ersten Punkt jetzt",
+    "Trag den Rest in deinen Kalender ein",
+    "Sag allen Bescheid, die es wissen müssen"
+   ]
+  }
+ },
+ "examples": {
+  "shower": ["duschen gehen", "schnell unter die Dusche springen", "duschen und Haare waschen"],
+  "getready": ["mich für die Arbeit fertig machen", "Zähne putzen", "ins Bett gehen", "zaehne putzen und anziehen"],
+  "dishes": ["Geschirr spülen", "Küche aufräumen", "Spülmaschine ausräumen", "abwaschen"],
+  "laundry": ["Wäsche waschen", "Waschmaschine anstellen", "die waesche aufhaengen", "Hemden bügeln"],
+  "room": ["Zimmer aufräumen", "Wohnung putzen", "meinen Schreibtisch aufraeumen", "Kleiderschrank ausmisten"],
+  "bathroom": ["Bad putzen", "Klo putzen", "die Dusche sauber machen"],
+  "vacuum": ["Wohnzimmer saugen", "staubsaugen", "Boden wischen", "die Küche wischen"],
+  "email": ["Mails beantworten", "Posteingang aufräumen", "E-Mail an Frau Becker schreiben"],
+  "message": ["Nachrichten beantworten", "Lisa auf WhatsApp antworten", "Tom zurückschreiben"],
+  "call": ["Zahnarzttermin ausmachen", "Termin beim Hausarzt machen", "Friseurtermin vereinbaren"],
+  "phonecall": ["Mama anrufen", "bei der Bank anrufen", "Oma zurückrufen", "mit dem Vermieter telefonieren"],
+  "essay": ["Aufsatz schreiben", "Hausarbeit für die Uni schreiben", "Bericht für die Arbeit fertig schreiben"],
+  "homework": ["Hausaufgaben machen", "Matheaufgaben fertig machen", "Arbeitsblatt für Englisch ausfüllen"],
+  "study": ["für die Klausur lernen", "Bio wiederholen", "Vokabeln lernen", "für die Führerscheinprüfung lernen"],
+  "read": ["ein Buch lesen", "20 Seiten lesen", "Kapitel 3 lesen"],
+  "song": ["einen Song schreiben", "Songtext für mein Lied schreiben", "Refrain fertig machen"],
+  "compose": ["Musik machen", "einen Beat bauen", "eine Melodie komponieren"],
+  "instrument": ["Gitarre üben", "Klavier spielen", "singen üben"],
+  "fiction": ["eine Kurzgeschichte schreiben", "an meinem Roman arbeiten", "Geschichte weiterschreiben"],
+  "poem": ["ein Gedicht schreiben", "Haiku schreiben", "Raptext schreiben"],
+  "nonfiction": ["Blogartikel schreiben", "meine Memoiren schreiben", "Newsletter fertig machen"],
+  "bookwrite": ["ein Buch schreiben", "an meinem Buch weiterschreiben", "endlich mit dem Buchprojekt anfangen"],
+  "art": ["ein Porträt zeichnen", "ein Bild malen", "im Skizzenbuch zeichnen"],
+  "video": ["YouTube-Video machen", "Podcastfolge aufnehmen", "Video schneiden"],
+  "craft": ["einen Schal stricken", "Knopf annähen", "Mütze häkeln"],
+  "taxes": ["Steuererklärung machen", "Steuern erledigen", "steuererklaerung abgeben"],
+  "bills": ["Rechnungen bezahlen", "Miete überweisen", "Stromrechnung zahlen"],
+  "paperwork": ["Reisepass verlängern", "Versicherungsformular ausfüllen", "Papierkram erledigen"],
+  "job": ["Bewerbung schreiben", "Lebenslauf aktualisieren", "auf die Stelle bewerben"],
+  "groceries": ["einkaufen gehen", "Lebensmittel einkaufen", "Milch und Brot kaufen"],
+  "buy": ["Geschenk für Papa kaufen", "neues Ladekabel bestellen", "Batterien besorgen"],
+  "cook": ["Abendessen kochen", "Kuchen backen", "Mittagessen machen"],
+  "errands": ["Erledigungen machen", "Besorgungen in der Stadt", "Paket zur Post bringen", "Haushalt machen"],
+  "exercise": ["joggen gehen", "ins Fitnessstudio gehen", "Sport machen", "eine Runde spazieren gehen"],
+  "pack": ["Koffer packen", "für den Urlaub packen", "Umzugskartons packen"],
+  "presentation": ["Präsentation machen", "Folien vorbereiten", "Referat vorbereiten", "Vortrag üben"],
+  "garden": ["Rasen mähen", "Pflanzen gießen", "Unkraut jäten"],
+  "car": ["Auto in die Werkstatt bringen", "Reifen wechseln", "Ölwechsel machen lassen"],
+  "booking": ["Flug nach Rom buchen", "Tisch reservieren", "Hotel für Wien buchen"],
+  "fix": ["den tropfenden Wasserhahn reparieren", "Regal aufbauen", "Glühbirne wechseln"],
+  "plan": ["Geburtstagsparty planen", "die Hochzeit organisieren", "Wochenende planen"]
+ },
+ "compound": [
+  ["Zimmer aufräumen und Mama anrufen, dann Miete überweisen", 3],
+  ["Bad putzen, staubsaugen und danach einkaufen gehen", 3],
+  ["Wäsche waschen und Geschirr spülen", 2],
+  ["einen Song schreiben und Zimmer aufräumen", 2],
+  ["Salz und Pfeffer kaufen", 1],
+  ["Milch und Eier kaufen", 1]
+ ]
+}

@@ -1,0 +1,644 @@
+{
+ "cjk": false,
+ "leadIns": [
+  "musím",
+  "musím si",
+  "měl bych",
+  "měla bych",
+  "měl bych si",
+  "měla bych si",
+  "potřebuju",
+  "potřebuju si",
+  "potřebuji",
+  "chci",
+  "chci si",
+  "chtěl bych",
+  "chtěla bych",
+  "mám",
+  "je potřeba",
+  "je třeba",
+  "potřeba",
+  "třeba",
+  "úkol:",
+  "todo:",
+  "prosím"
+ ],
+ "then": [
+  "pak",
+  "potom",
+  "poté",
+  "a pak",
+  "a potom",
+  "a poté",
+  "následně",
+  "nakonec",
+  "a nakonec",
+  "a taky",
+  "a také",
+  "a ještě",
+  "plus"
+ ],
+ "and": [
+  "a",
+  "i"
+ ],
+ "generic": [
+  "Napiš si, jak vypadá „hotovo“ u úkolu: {task}",
+  "Dej si všechno potřebné na jedno místo",
+  "Nastav časovač na 10 minut",
+  "Začni tím nejsnazším kouskem",
+  "Pokračuj, dokud časovač nezazvoní",
+  "Dej si 2 minuty pauzu",
+  "Udělej další malý kousek",
+  "Podívej se, co zbývá, a přidej k tomu kroky",
+  "Dokonči to a ukliď po sobě"
+ ],
+ "templates": {
+  "shower": {
+   "kw": ["osprch", "vysprch", "sprchovat", "sprchnout", "sprchnu", "sprcha$", "do sprchy", "pod sprchu", "dát si sprchu", "dám si sprchu", "rychlou sprchu", "vykoupat", "okoupat", "koupat se$", "koupel$", "dát si vanu", "dát si koupel", "umýt se$", "umyju se$", "umýt vlasy", "umýt si vlasy"],
+   "steps": [
+    "Dej si do koupelny ručník a čisté oblečení",
+    "Pusť vodu",
+    "Vlez dovnitř",
+    "Umyj si vlasy",
+    "Umyj si tělo",
+    "Zastav vodu a osuš se",
+    "Obleč se"
+   ]
+  },
+  "getready": {
+   "kw": ["obléct", "oblíct", "oblékn", "obléknout", "nachystat se$", "vychystat se$", "vypravit se$", "připravit se do$", "připravit se ven", "ustrojit", "ranní rutin", "večerní rutin", "vyčistit zuby", "vyčistit si zuby", "čistit zuby", "zuby$", "jít spát", "spát$", "do postele", "vstát$", "vstávat", "vylézt z postele"],
+   "steps": [
+    "Vstaň a jdi do koupelny",
+    "Vyčisti si zuby",
+    "Umyj se nebo se osprchuj",
+    "Obleč si připravené oblečení",
+    "Vezmi si klíče, telefon a peněženku",
+    "Mrkni, kolik je hodin"
+   ]
+  },
+  "dishes": {
+   "kw": ["nádob", "myčk", "myčc", "kuchyn", "kuchyň", "dřez", "talíř", "hrnce", "hrnců", "pánve", "pánvi", "kuchyňsk"],
+   "steps": [
+    "Pusť si písničku nebo podcast, co tě baví",
+    "Vyhoď odpadky z linky",
+    "Seškrab zbytky jídla do koše",
+    "Nejdřív dej do myčky nebo umyj talíře",
+    "Potom hrnky a skleničky",
+    "Potom příbory",
+    "Hrnce a pánve nech odmočit v horké vodě se saponátem",
+    "Utři linku vedle dřezu",
+    "Vydrhni odmočené hrnce a pánve",
+    "Vynes koš, jestli je plný"
+   ]
+  },
+  "laundry": {
+   "kw": ["prádl", "vyprat", "vyper", "přeprat", "prát$", "pračk", "pračc", "sušičk", "žehl", "vyžehl", "nažehl", "oblečení", "pověsit prádlo", "povlečení", "převléct postel", "převléknout postel"],
+   "steps": [
+    "Vezmi koš nebo tašku",
+    "Posbírej oblečení z podlahy a z koše na prádlo",
+    "Roztřiď ho na tmavé a světlé",
+    "Dej jednu várku do pračky a přidej prací prostředek",
+    "Zapni ji a nastav si na telefonu budík na konec praní",
+    "Až dopere, pověs prádlo nebo ho dej do sušičky",
+    "Suché prádlo slož nebo pověs, nejdřív jen trička a košile",
+    "Potom zbytek",
+    "Ukliď všechno do šuplíků nebo do skříně"
+   ]
+  },
+  "room": {
+   "kw": ["pokoj", "ložnic", "obývák", "obýváku", "obývací", "uklidit byt", "uklidit celý byt", "uklízet byt", "poklidit byt", "úklid bytu", "bytu$", "v bytě$", "barák", "dům$", "domácnost", "uklidit doma", "uklízet doma", "poklidit doma", "úklid doma", "velký úklid", "jarní úklid", "generální úklid", "vygruntovat", "kancelář", "pracovna$", "pracovnu$", "pracovně$", "pracovní stůl", "psací stůl", "uklidit stůl", "uklidit si stůl", "garáž", "sklep", "skříň", "skřín", "šatn", "šuplí", "nepořád", "bordel", "binec", "chodb", "předsíň", "předsín", "komor", "spíž", "balkon"],
+   "steps": [
+    "Nastav časovač na 10 minut",
+    "Vezmi pytel na odpadky a košík",
+    "Posbírej všechno, co je odpad, a vyhoď to",
+    "Špinavé oblečení a nádobí dej do košíku",
+    "Úplně vykliď jednu plochu",
+    "Věci z ní vrať tam, kam patří",
+    "Vyber si ještě jedno malé místo a ukliď ho",
+    "Odnes košík tam, kam patří",
+    "Vynes pytel s odpadky",
+    "Zastav se a podívej se, kolik je hotovo"
+   ]
+  },
+  "bathroom": {
+   "kw": ["koupeln", "záchod", "wc$", "toalet", "vanu$", "vana$", "vany$", "sprchu$", "sprchy$", "sprchov", "umyvadl"],
+   "steps": [
+    "Nasaď si rukavice, vezmi čisticí sprej a hadr",
+    "Sundej lahvičky a ostatní věci z polic a okrajů",
+    "Nastříkej umyvadlo, záchod a sprchu",
+    "Utři umyvadlo a baterie",
+    "Vydrhni záchod zevnitř, potom ho utři zvenku",
+    "Opláchni sprchu nebo vanu",
+    "Vrať lahvičky na místo",
+    "Pověs čistý ručník"
+   ]
+  },
+  "vacuum": {
+   "kw": ["vysát", "vysaj", "vysáv", "vysav", "luxov", "luxuj", "vylux", "vytřít", "vytír", "vytřu$", "zamést", "zamet", "podlah", "mop$", "mopem$", "mopov", "koberc", "koberec", "smeták"],
+   "steps": [
+    "Vytáhni vysavač, mop nebo smeták",
+    "Posbírej věci, které leží na zemi",
+    "Začni v nejvzdálenějším rohu jedné místnosti",
+    "Postupuj směrem ke dveřím",
+    "Další místnost udělej stejně",
+    "Vysyp vysavač nebo vymáchej mop",
+    "Všechno ukliď na místo"
+   ]
+  },
+  "email": {
+   "kw": ["mail", "e-mail", "email", "mejl", "inbox", "doručen", "odpovědět na mail", "odpovědět na e-mail", "odpovědět na email", "odpovídat na mail", "odpovídat na e-mail", "odepsat na mail", "odepsat na e-mail", "odepsat na email"],
+   "steps": [
+    "Otevři doručenou poštu a nic jiného",
+    "Nastav časovač na 15 minut",
+    "Smaž nebo archivuj všechno, co nepotřebuješ",
+    "Označ hvězdičkou e-maily, na které je potřeba odpovědět",
+    "Nejdřív odpověz na ten nejrychlejší, dvěma třemi větami",
+    "Odpověz na další s hvězdičkou",
+    "Poznamenej si ty, které chtějí víc času",
+    "Až časovač zazvoní, poštu zavři"
+   ]
+  },
+  "message": {
+   "kw": ["zpráv", "odepsat", "odepiš", "odepíš", "odpověd", "odpověz", "odpovíd", "sms", "esemesk", "textovk", "whatsapp", "messenger", "telegram", "ozvat se$", "napsat mám", "napsat mam", "napsat tát", "napsat tat", "napsat kamarád", "napsat šéf", "napsat babi", "napsat brách", "napsat ségř"],
+   "steps": [
+    "Otevři konverzaci",
+    "Přečti si jednou poslední zprávu",
+    "Napiš krátký první návrh, nemusí být dokonalý",
+    "Jednou si ho po sobě přečti",
+    "Odešli to",
+    "Zavři aplikaci"
+   ]
+  },
+  "call": {
+   "kw": ["objednat se$", "objednat k zubaři", "zubař", "zubní", "doktor", "lékař$", "lékaře$", "lékaři$", "lékařk", "veterin", "kadeřn", "holič", "nechat se ostříhat", "ostříhat se$", "termín", "prohlídk", "oční$", "očař", "optik", "gynekolo", "obvoďák", "pediatr", "fyzio", "psycholo", "psychiatr", "terapeut", "ordinac"],
+   "steps": [
+    "Najdi telefonní číslo nebo stránku s objednáním",
+    "Napiš si jednou větou, co potřebuješ říct",
+    "Otevři si kalendář, ať vidíš volné termíny",
+    "Připrav si údaje, na které se zeptají (doklad, zákaznické nebo referenční číslo)",
+    "Vytoč číslo nebo začni s objednáním",
+    "Řekni svou jednu větu",
+    "Zapiš si datum, čas nebo jak to dopadlo",
+    "Dej si to do kalendáře"
+   ]
+  },
+  "phonecall": {
+   "kw": ["zavol", "volat", "volám$", "obvolat", "telefon", "zatelefon", "brnk", "cinkn", "prozvon", "hovor$"],
+   "steps": [
+    "Najdi číslo",
+    "Napiš si jednou větou, proč voláš",
+    "Připrav si kalendář a případné referenční číslo",
+    "Vytoč číslo",
+    "Řekni svou jednu větu",
+    "Zapiš si, na čem jste se domluvili"
+   ]
+  },
+  "essay": {
+   "kw": ["esej", "referát", "seminárk", "seminárn", "bakalářk", "bakalářsk", "diplomk", "diplomov", "dizert", "disert", "doktorská práce", "doktorskou práci", "ročníkov", "závěrečn", "motivační dopis", "motivák", "proslov", "projev$", "slohov", "sloh$", "úvah", "report", "zpráva z$", "zprávu z$", "zpráva o$", "zprávu o$", "abstrakt", "rešerš"],
+   "steps": [
+    "Otevři prázdný dokument a pojmenuj ho",
+    "Nahoru napiš zadání nebo otázku",
+    "5 minut si v odrážkách zapisuj každý nápad",
+    "Rozděl odrážky do 3 až 5 částí",
+    "Ke každé části napiš jednu hrubou větu",
+    "Nejdřív rozepiš tu nejsnazší část",
+    "Doplň další část",
+    "Napiš krátký úvod a závěr",
+    "Jednou si to přečti a oprav, co bije do očí",
+    "Ulož to a odevzdej nebo pošli"
+   ]
+  },
+  "homework": {
+   "kw": ["domácí úkol", "domácák", "úkol do školy", "úkoly do školy", "úkol z$", "úkoly z$", "úkol do$", "úkoly do$", "úkoly$", "dú$", "pracovní list", "cvičení z$", "příklad", "projekt do školy", "školní projekt", "protokol", "semestrálk", "semestrální"],
+   "steps": [
+    "Zjisti, co přesně máš odevzdat a dokdy",
+    "Vyndej si na stůl učebnici, notebook nebo pracovní list",
+    "Jednou si přečti zadání",
+    "Udělej první otázku nebo tu nejsnazší část",
+    "Dej si 2 minuty pauzu",
+    "Udělej další část",
+    "Označ si, kde nevíš, jak dál, a pokračuj",
+    "Zkontroluj si odpovědi",
+    "Odevzdej to nebo si to dej do tašky"
+   ]
+  },
+  "study": {
+   "kw": ["učit se$", "naučit", "doučit", "učení", "studov", "nastudov", "zkoušk", "zkoušc", "zkoušen", "test$", "testu$", "písemk", "písemc", "maturit", "státnic", "zápočet", "zápočt", "opakovat", "zopakov", "opakování", "šprt", "našprt", "biflov", "kartičk", "slovíčk", "přijímačk", "autoškol", "kvíz", "připravit se na písemku", "připravit se na test"],
+   "steps": [
+    "Vyber si na tohle učení jedno téma",
+    "Odnes telefon do jiné místnosti",
+    "Nastav časovač na 20 minut",
+    "Prolétni si k tématu poznámky",
+    "Zavři poznámky a napiš, co si pamatuješ",
+    "Podívej se, co ti uteklo",
+    "Udělej si 5 kartiček nebo cvičných otázek",
+    "Dej si 5 minut pauzu",
+    "Vyzkoušej se z kartiček"
+   ]
+  },
+  "read": {
+   "kw": ["číst$", "čtu$", "přečíst", "přečt", "dočíst", "dočt", "čtení", "četb", "knih", "knize$", "knížk", "knížc", "audioknih", "stran$", "stránek", "stránk"],
+   "steps": [
+    "Vezmi knihu a telefon polož displejem dolů",
+    "Najdi místo, kde čtení minule skončilo",
+    "Přečti jen jednu stránku",
+    "Pokračuj ještě 10 minut",
+    "Založ si stránku",
+    "Napiš si jednu větu o tom, o čem to bylo"
+   ]
+  },
+  "song": {
+   "kw": ["písn", "písen", "píseň", "song", "refrén", "slok", "otextovat", "text k písn"],
+   "steps": [
+    "Otevři poznámky v telefonu nebo si vezmi sešit",
+    "Napiš jednu větu o tom, o čem písnička je",
+    "Zabroukej si nebo zahraj pár akordů a nahraj to jako hlasovou poznámku",
+    "Kousek, který se ti líbí nejvíc, vezmi jako nápad na refrén",
+    "Napiš nahrubo text refrénu, rýmovat se nemusí",
+    "Napiš první sloku, klidně neuhlazenou",
+    "Nahraj si to celé nahrubo na telefon",
+    "Jednou si to pusť a poznamenej si jednu věc, kterou změníš",
+    "Ulož to pod nějakým názvem, klidně jen pracovním"
+   ]
+  },
+  "compose": {
+   "kw": ["skladb", "skládat hudbu", "kompon", "zkompon", "kompozic", "melodi", "beat", "track", "hudb", "muzik", "partitur", "symfon", "akordový postup", "aranž", "zhudebn", "remix", "podkres", "ableton", "garageband", "fl studio", "daw$"],
+   "steps": [
+    "Vezmi si nástroj nebo otevři hudební aplikaci a založ prázdný projekt",
+    "Nastav tempo a tóninu, jakékoli",
+    "Nahraj nebo zapiš nápad na 4 takty",
+    "Pusť ho ve smyčce a přidej jednu vrstvu (basu, akordy nebo rytmus)",
+    "Udělej variaci pro druhou část",
+    "Seřaď části za sebe",
+    "Vyexportuj nebo nahraj hrubou verzi",
+    "Jednou si to pusť a napiš si jednu věc, kterou spravíš",
+    "Ulož projekt s dnešním datem"
+   ]
+  },
+  "instrument": {
+   "kw": ["kytar", "klavír", "pian", "housl", "viol", "cell", "bicí$", "bubn", "buben", "ukulel", "basu$", "basa$", "baskytar", "flétn", "klarinet", "saxofon", "trubk", "trumpet", "pozoun", "trombon", "harf", "zobcov", "varhan", "akordeon", "harmonik", "klávesy$", "hudební nástroj", "zpěv", "zpív", "zazpív", "rozezpív", "stupnic", "cvičit na$", "cvičení na$", "cvičit klavír", "cvičit kytaru", "cvičit housle", "cvičit flétnu", "cvičit stupnice", "cvičit zpěv", "cvičit bicí"],
+   "steps": [
+    "Vytáhni nástroj a dej ho tam, kde budeš hrát",
+    "Nalaď nástroj",
+    "Nastav časovač na 15 minut",
+    "2 minuty se rozehrávej (stupnice, akordy nebo rozezpívání)",
+    "Zahraj si něco, co už umíš a co tě baví",
+    "Vyber si jeden těžký takt nebo techniku na procvičení",
+    "Zahraj to 5krát pomalu",
+    "Trochu zrychli",
+    "Na závěr si zahraj něco pro radost",
+    "Nech nástroj někde, kde ho budeš mít na očích"
+   ]
+  },
+  "fiction": {
+   "kw": ["povídk", "povídc", "román$", "románu$", "románem$", "novel", "fanfik", "fanfic", "scénář", "scén", "příběh", "kapitol", "zápletk", "postavy$", "postavu$", "postava$", "pohádk", "detektivk", "fikc", "beletri", "próz"],
+   "steps": [
+    "Otevři prázdný dokument nebo sešit",
+    "Napiš jednu větu o tom, kdo co chce",
+    "Poznamenej si, kde a kdy se scéna odehrává",
+    "Nastav časovač na 15 minut",
+    "Napiš scénu špatně, bez zastavování a oprav",
+    "Až časovač zazvoní, skonči uprostřed věty, ať se příště snadno navazuje",
+    "Dej si krátkou pauzu",
+    "Přečti si to a zvýrazni jednu větu, která se ti líbí",
+    "Jednou větou si poznamenej, co bude dál",
+    "Ulož soubor"
+   ]
+  },
+  "poem": {
+   "kw": ["báseň", "básn", "básen", "poezi", "haiku", "sonet", "rap$", "rapov", "rýmy$", "rýmovan", "verš", "slam"],
+   "steps": [
+    "Vyber si jeden obraz, pocit nebo okamžik, o kterém chceš psát",
+    "Sepiš 10 slov, která s ním souvisí",
+    "Napiš první verš a nehodnoť ho",
+    "Piš další verše ještě 5 minut",
+    "Přečti si to nahlas",
+    "Škrtni nejslabší verše",
+    "Vyber název",
+    "Ulož to"
+   ]
+  },
+  "nonfiction": {
+   "kw": ["článek", "článk", "blog", "newsletter", "memoár", "paměti$", "biografi", "deník", "recenz", "návod", "příručk", "fejeton", "sloupek", "reportáž", "komentář", "tutoriál", "literatura faktu", "non-fiction", "nonfiction"],
+   "steps": [
+    "Napiš hlavní myšlenku jednou větou",
+    "V odrážkách si vysyp všechno, co o tom víš",
+    "Poznamenej si, co je potřeba ověřit nebo dohledat",
+    "Seřaď odrážky a udělej z nich nadpisy",
+    "Nejdřív napiš tu nejsnazší část",
+    "Doplň další část",
+    "Přidej krátký úvod a závěr",
+    "Ověř fakta a doplň zdroje",
+    "Jednou si to přečti a ulož"
+   ]
+  },
+  "bookwrite": {
+   "kw": ["napsat knihu", "napsat knížku", "psát knihu", "psát knížku", "dopsat knihu", "sepsat knihu", "rozepsat knihu", "psaní knihy", "psaní knížky", "psát svoji knihu", "psát svou knihu", "moje kniha", "moji knihu", "mou knihu", "svoji knihu", "svou knihu", "na knize", "své knize", "svojí knize", "mojí knize", "rukopis"],
+   "steps": [
+    "Napiš jednou větou, o čem kniha je",
+    "Sepiš hlavní části nebo kapitoly, každou na jeden řádek",
+    "Vyber si jednu kapitolu na začátek, nemusí být první",
+    "Nastav časovač na 20 minut",
+    "Piš bez oprav, dokud nezazvoní",
+    "Poznamenej si, kde končíš a co bude dál",
+    "Ulož soubor pod jasným názvem",
+    "Zapiš si do kalendáře, kdy budeš psát příště"
+   ]
+  },
+  "art": {
+   "kw": ["kresl", "nakresl", "dokresl", "malov", "namalov", "domalov", "malb", "obrázek", "obrázk", "skic", "náčrt", "ilustr", "komiks", "akvarel", "portrét", "plátno", "čmár", "pastel"],
+   "steps": [
+    "Vytáhni papír, plátno nebo tablet a potřeby",
+    "Vyber si námět, nebo nakresli to, co máš před sebou",
+    "2 minuty si jen tak čmárej na rozehřátí",
+    "Lehce načrtni velké tvary",
+    "Přidej hlavní detaily",
+    "Přidej barvu nebo stínování",
+    "Poodstup a najdi jednu věc, kterou upravíš",
+    "Podepiš to a napiš datum",
+    "Umyj štětce a ukliď věci"
+   ]
+  },
+  "video": {
+   "kw": ["vide", "youtube", "vlog", "film", "natoč", "natáč", "tiktok", "reel", "záběr", "podcast", "epizod", "animac", "střih$", "sestřih", "stříhat", "stream"],
+   "steps": [
+    "Napiš jednou větou, o čem to bude",
+    "Sepiš záběry nebo body, o kterých budeš mluvit",
+    "Připrav kameru, telefon nebo mikrofon a zkontroluj zvuk",
+    "Natoč první záběr nebo první bod",
+    "Natoč zbytek, jedno po druhém",
+    "Naimportuj záznamy do střihového programu",
+    "Udělej hrubý střih",
+    "Přidej titulky a hudbu",
+    "Vyexportuj to a jednou si to pusť",
+    "Nahraj to na web nebo ulož"
+   ]
+  },
+  "craft": {
+   "kw": ["plést$", "pletení", "uplést", "uplet", "háčk", "uháčk", "šít$", "šití$", "ušít", "uši$", "přišít", "zašít", "vyšív", "tvoření", "keramik", "origami", "patchwork", "scrapbook", "korálk", "vyřezáv", "truhlař", "vyrobit", "vyrábět", "makramé", "ruční práce", "šicí stroj"],
+   "steps": [
+    "Vytáhni materiál a návod",
+    "Udělej si místo s dobrým světlem",
+    "Přečti si další část návodu nebo plánu",
+    "Nastav časovač na 20 minut",
+    "Pracuj jen na téhle části",
+    "Označ si, kde končíš",
+    "Ukliď zbytky a nářadí"
+   ]
+  },
+  "taxes": {
+   "kw": ["daňov", "přiznání$", "přiznání k dani", "daň z$", "daně z$", "daně za$", "udělat daně", "podat daně", "zaplatit daně", "doplatit daně", "vyřídit daně", "vyřešit daně", "řešit daně", "spočítat daně", "dph$", "finanční úřad", "finančák"],
+   "steps": [
+    "Zjisti termín a zapiš si ho",
+    "Založ si složku na daňové papíry",
+    "Dej dohromady doklady o příjmech (výplatní pásky, potvrzení od zaměstnavatele)",
+    "Dej dohromady účtenky a potvrzení ke všemu, co si můžeš odečíst",
+    "Přihlas se na daňový portál nebo do programu",
+    "Vyplň osobní údaje",
+    "Zadej příjmy",
+    "Zadej odpočty a slevy",
+    "Projdi si shrnutí",
+    "Odešli to a ulož si potvrzení"
+   ]
+  },
+  "bills": {
+   "kw": ["účty$", "účet$", "složenk", "faktur", "nájem", "zaplat", "platit$", "platb", "uhrad", "úhrad", "rozpoč", "financ", "peníze", "peněz", "inkaso", "trvalý příkaz", "bankovnictví", "splátk", "dluh", "poplat"],
+   "steps": [
+    "Otevři bankovní aplikaci nebo ten účet",
+    "Sepiš, co je potřeba zaplatit a dokdy",
+    "Vyber to, co má nejbližší splatnost",
+    "Zaplať to",
+    "Ulož si potvrzení nebo udělej snímek obrazovky",
+    "Zaplať další",
+    "Nastav si připomínky na další termíny splatnosti"
+   ]
+  },
+  "paperwork": {
+   "kw": ["formulář", "papírov", "papíry$", "dokument", "doklad", "žádost", "přihlášk", "pas$", "pasu$", "cestovní pas", "občank", "občansk", "průkaz", "vízum", "víza$", "řidičák", "řidičsk", "pojist", "pojišť", "pojišt", "reklamac", "úřad", "smlouv", "administrativ", "byrokrac", "potvrzení", "datovk", "datovou schránk", "datová schránk"],
+   "steps": [
+    "Najdi formulář nebo web",
+    "Přečti si, jaké doklady chtějí",
+    "Dej ty doklady na jedno místo",
+    "Vyplň to snadné (jméno, adresu, data)",
+    "Vyplň další část",
+    "Otázku, na kterou neznáš odpověď, si poznamenej a dohledej",
+    "Jednou to zkontroluj",
+    "Odešli to online nebo poštou",
+    "Ulož si kopii nebo potvrzení"
+   ]
+  },
+  "job": {
+   "kw": ["životopis", "cv$", "pohovor", "linkedin", "hledat práci", "najít práci", "hledání práce", "novou práci", "nová práce", "nabídky práce", "nabídku práce", "pracovní nabídk", "pracovní inzerát", "odpovědět na inzerát", "žádost o práci", "výběrov", "zaměstnání", "brigád", "job$", "pozici$", "kariér"],
+   "steps": [
+    "Otevři si vedle sebe inzerát a svůj životopis",
+    "Zvýrazni 3 věci, které chtějí nejvíc",
+    "Uprav životopis, aby ty 3 věci byly vidět",
+    "Napiš krátký průvodní dopis, 3 krátké odstavce",
+    "Vyplň formulář žádosti",
+    "Přilož životopis",
+    "Jednou si to přečti a odešli",
+    "Zapiš si datum odeslání"
+   ]
+  },
+  "groceries": {
+   "kw": ["nákup", "nakup", "nakoup", "potravin", "supermarket", "samošk", "do obchodu", "do krámu", "jídlo$", "mlék", "vejce", "vajíčk", "chleb", "chléb", "pečivo", "rohlík", "ovoce", "zelenin", "máslo"],
+   "steps": [
+    "Podívej se do lednice a do skříněk",
+    "Sepiš, co došlo",
+    "Připiš, co potřebuješ na několik příštích jídel",
+    "Vezmi tašky, klíče a peněženku, nebo otevři aplikaci s rozvozem",
+    "Naber věci ze seznamu",
+    "Zaplať",
+    "Nejdřív ukliď chlazené věci, potom zbytek"
+   ]
+  },
+  "buy": {
+   "kw": ["koupit", "koupím$", "kupovat", "kup$", "zakoupit", "objedn", "pořídit", "pořídím", "sehnat", "seženu", "sežeň", "obstarat", "dárek", "dárk", "e-shop", "eshop"],
+   "steps": [
+    "Zjisti, jestli to už nemáš doma",
+    "Rozhodni se, kde to pořídíš",
+    "Urči si, kolik za to chceš dát",
+    "Najdi to v obchodě nebo na internetu",
+    "Kup to",
+    "Dej to tam, kam patří"
+   ]
+  },
+  "cook": {
+   "kw": ["uvař", "vařit", "vaření", "navař", "večeře$", "večeři$", "oběd$", "snídan", "recept$", "receptu$", "upéct", "upeč", "péct$", "pečení$", "napéct", "dort", "bábovk", "buchtu", "buchty", "koláč", "polévk", "guláš", "usmaž", "smažit", "meal prep"],
+   "steps": [
+    "Vyber, co budeš vařit",
+    "Zkontroluj, že máš suroviny",
+    "Udělej si místo na lince",
+    "Vytáhni hrnce, pánve a náčiní",
+    "Omyj a nakrájej suroviny",
+    "Dej vařit to, co trvá nejdéle",
+    "Nastav časovač",
+    "Uvař zbytek",
+    "Dej jídlo na talíře",
+    "Dej hrnce a pánve odmočit"
+   ]
+  },
+  "errands": {
+   "kw": ["pochůzk", "obchůzk", "vyřizován", "zařizován", "zařídit věci", "vyřídit věci", "oběhat", "oběhnout", "na poštu", "na poště", "poštu$", "vyzvedn", "čistírn", "lékárn", "výdejn", "zásilkovn", "domácí práce", "povinnost"],
+   "steps": [
+    "Napiš všechny pochůzky na jeden seznam",
+    "Seřaď je tak, aby z toho byl jeden okruh",
+    "Vezmi klíče, peněženku, telefon a všechno, co máš někam odnést",
+    "Vyřiď první pochůzku",
+    "Odškrtni ji a vyřiď další",
+    "Vrať se domů a ukliď věci"
+   ]
+  },
+  "exercise": {
+   "kw": ["cvič", "zacvič", "posilovn", "posilov", "fitk", "fitness", "běh$", "běhat", "běžet", "zaběh", "jóg", "jog", "procházk", "projít se$", "protáh", "plav", "zaplav", "trénink", "workout", "kardio", "sport", "na kolo$", "na kole$", "kliky$", "dřep", "plank"],
+   "steps": [
+    "Obleč si věci na cvičení a obuj si boty",
+    "Naplň si láhev vodou",
+    "Vyber si jednu krátkou sestavu nebo trasu",
+    "3 minuty se rozcvičuj",
+    "Udělej první část",
+    "Pokračuj až do konce",
+    "Zvolni a protáhni se",
+    "Napij se vody"
+   ]
+  },
+  "pack": {
+   "kw": ["sbal", "zabal", "balit$", "balení$", "kufr", "batoh", "krosn", "dovolen", "výlet", "na cestu$", "cestování", "stěhov", "přestěhov"],
+   "steps": [
+    "Vytáhni tašku nebo krabice",
+    "Napiš si rychlý seznam (oblečení, hygiena, nabíječky, doklady)",
+    "Nejdřív sbal oblečení",
+    "Sbal hygienu",
+    "Sbal nabíječky a elektroniku",
+    "Pas, jízdenky nebo klíče dej do jedné kapsy",
+    "Jednou si projdi seznam",
+    "Postav tašku ke dveřím"
+   ]
+  },
+  "presentation": {
+   "kw": ["prezentac", "prezentov", "slajd", "slide", "powerpoint", "pptx", "ppt$", "pitch", "keynote", "připravit přednášku", "nacvičit přednášku", "přednášet"],
+   "steps": [
+    "Napiš hlavní sdělení jednou větou",
+    "Sepiš 3 až 5 bodů, které ho podpoří",
+    "Udělej ke každému bodu jeden slajd, zatím jen nadpisy",
+    "Na každý slajd přidej pár slov nebo jeden obrázek",
+    "Udělej úvodní a závěrečný slajd",
+    "Jednou si to řekni nahlas",
+    "Oprav místa, která drhla",
+    "Ulož to a pošli nebo nahraj"
+   ]
+  },
+  "garden": {
+   "kw": ["zahrad", "zahrád", "trávník", "tráva$", "trávu$", "posekat", "sekat$", "sekání", "plevel", "vyplet", "vyplít", "plít$", "kytk", "květin", "kytky$", "zalít", "zalej", "zalév", "zalij", "rostlin", "hrab", "shrab", "listí$", "záhon", "zasadit", "sázet", "přesadit", "živý plot", "skleník", "kompost"],
+   "steps": [
+    "Obuj si boty a vezmi rukavice",
+    "Vytáhni nářadí",
+    "Vyber si jeden kousek, kde začneš",
+    "Udělej ten kousek",
+    "Přesuň se na další",
+    "Dej odpad do pytle",
+    "Ukliď nářadí"
+   ]
+  },
+  "car": {
+   "kw": ["servis auta", "auto do servisu", "do servisu", "autoservis", "výměna oleje", "vyměnit olej", "stk$", "technická$", "technickou$", "technické kontrol", "pneu", "přezout", "přezutí", "zimní gumy", "letní gumy", "vyměnit pneu", "výměna pneu", "vyměnit gumy", "pojištění auta", "povinné ručení", "havarijn", "umýt auto", "natankovat", "dálniční známk"],
+   "steps": [
+    "Najdi doklady od auta nebo číslo do servisu",
+    "Rozhodni se, co je potřeba udělat",
+    "Domluv si termín nebo sežeň, co potřebuješ",
+    "Vyházej z auta odpadky",
+    "Udělej to, nebo auto odvez do servisu",
+    "Zapiš si datum a kdy to bude potřeba příště"
+   ]
+  },
+  "booking": {
+   "kw": ["rezerv", "zarezerv", "zamluv", "zabook", "booknout", "letenk", "ubytování", "hotel", "jízdenk", "lístk", "lístek", "vstupenk"],
+   "steps": [
+    "Ujasni si termín a rozpočet",
+    "Otevři si dva weby nebo aplikace na porovnání",
+    "Vyber možnost, která sedí nejlíp",
+    "Vyplň své údaje",
+    "Zaplať",
+    "Ulož si potvrzení",
+    "Dej si to do kalendáře"
+   ]
+  },
+  "fix": {
+   "kw": ["oprav", "sprav", "rozbit", "porouch", "poruch", "namontov", "smontov", "montáž", "nábyt", "sestavit skříň", "sestavit postel", "nainstal", "instalovat", "instalac", "přeinstal", "vyměnit", "výměna$", "žárovk", "přišroub", "zalepit", "slepit", "vyvrtat", "zprovozn", "údržb"],
+   "steps": [
+    "Podívej se, co je špatně, a popiš to jednou větou",
+    "Najdi si návod nebo video",
+    "Dej dohromady nářadí a díly",
+    "Udělej si místo na práci",
+    "Udělej první krok z návodu",
+    "Dělej další kroky, jeden po druhém",
+    "Vyzkoušej, že to funguje",
+    "Ukliď nářadí"
+   ]
+  },
+  "plan": {
+   "kw": ["plán", "naplán", "zorganiz", "organiz", "uspořád", "oslav", "party$", "párty$", "večírek", "večírk", "mejdan", "svatb", "narozenin", "akce$", "akci$", "rozvrh", "harmonogram", "událost"],
+   "steps": [
+    "Napiš jednou větou, co plánuješ",
+    "Vyber datum nebo termín",
+    "Sepiš všechno, co se musí stát",
+    "Seřaď seznam",
+    "První bod udělej hned",
+    "Zbytek si dej do kalendáře",
+    "Dej vědět všem, kdo to potřebují vědět"
+   ]
+  }
+ },
+ "examples": {
+  "shower": ["osprchovat se", "dát si rychlou sprchu", "jit do sprchy"],
+  "getready": ["připravit se do práce", "jít spát", "vycistit si zuby"],
+  "dishes": ["umýt nádobí", "uklidit kuchyň", "vyndat nadobi z mycky"],
+  "laundry": ["vyprat prádlo", "dát prát tmavé věci", "vyzehlit kosile"],
+  "room": ["uklidit pokoj", "udělat doma velký úklid", "uklidit si bordel na stole"],
+  "bathroom": ["uklidit koupelnu", "vydrhnout záchod", "umyt vanu a umyvadlo"],
+  "vacuum": ["vysát obývák", "vytřít podlahu", "vyluxovat cely byt"],
+  "email": ["odpovědět na maily", "promazat doručenou poštu", "vyridit e-maily z prace"],
+  "message": ["odepsat Petrovi", "odpovědět na zprávy", "napsat mamce na WhatsApp"],
+  "call": ["objednat se k zubaři", "domluvit termín u doktorky", "objednat psa na veterinu"],
+  "phonecall": ["zavolat mámě", "zatelefonovat do banky", "brnknout babicce"],
+  "essay": ["napsat esej", "dopsat seminárku", "napsat zpravu z praxe"],
+  "homework": ["udělat domácí úkol", "dodělat úkol z matiky", "ukoly do skoly"],
+  "study": ["učit se na zkoušku", "zopakovat si biologii", "naucit se slovicka z anglictiny"],
+  "read": ["číst knížku", "přečíst 20 stran", "docist kapitolu"],
+  "song": ["napsat písničku", "složit píseň pro Janu", "dopsat text k refrenu"],
+  "compose": ["složit hudbu k videu", "udělat beat", "dodelat track v Abletonu"],
+  "instrument": ["cvičit na kytaru", "zahrát si na klavír", "procvicit stupnice na housle"],
+  "fiction": ["napsat povídku", "pracovat na románu", "dopsat scenu do scenare"],
+  "poem": ["napsat báseň", "složit haiku", "napsat basnicku pro babicku"],
+  "nonfiction": ["napsat článek na blog", "sepsat recenzi na film", "udelat zapis do deniku"],
+  "bookwrite": ["napsat knihu", "začít psát svoji knihu", "pokracovat v psani knihy"],
+  "art": ["nakreslit portrét", "namalovat obrázek", "dodelat skicu do skicaku"],
+  "video": ["natočit video na YouTube", "nahrát epizodu podcastu", "sestrihat vlog"],
+  "craft": ["uplést šálu", "přišít knoflík", "hackovat cepici"],
+  "taxes": ["podat daňové přiznání", "udelat dane", "vyplnit přiznání k dani z příjmu"],
+  "bills": ["zaplatit účty", "poslat nájem", "uhradit fakturu za elektrinu"],
+  "paperwork": ["prodloužit pas", "vyplnit formulář pro pojišťovnu", "vyridit novou obcanku"],
+  "job": ["poslat životopis", "připravit se na pohovor", "aktualizovat cv"],
+  "groceries": ["jít na nákup", "nakoupit potraviny", "koupit mleko a chleba"],
+  "buy": ["koupit dárek pro tátu", "objednat novou nabíječku", "sehnat baterky do ovladace"],
+  "cook": ["uvařit večeři", "upéct bábovku", "navarit na cely tyden"],
+  "errands": ["oběhnout pochůzky", "zajít na poštu", "vyzvednout balik a leky"],
+  "exercise": ["jít si zaběhat", "zajít do posilovny", "zacvicit si jogu"],
+  "pack": ["sbalit kufr", "zabalit si na dovolenou", "sbalit veci na vikend"],
+  "presentation": ["udělat prezentaci", "připravit slajdy na poradu", "nacvicit prednasku na konferenci"],
+  "garden": ["posekat trávník", "zalít kytky", "vyplet zahon"],
+  "car": ["dát auto do servisu", "přezout pneumatiky", "objednat auto na STK"],
+  "booking": ["zarezervovat letenky do Říma", "rezervovat stůl v restauraci", "zamluvit ubytovani na vikend"],
+  "fix": ["opravit kapající kohoutek", "smontovat knihovnu", "vymenit zarovku v koupelne"],
+  "plan": ["naplánovat narozeninovou oslavu", "zorganizovat svatbu", "usporadat vecirek pro kolegy"]
+ },
+ "compound": [
+  ["uklidit pokoj a zavolat mámě, pak zaplatit nájem", 3],
+  ["napsat písničku, nebo uklidit pokoj a zavolat mámě", 3],
+  ["vyprat prádlo a umýt nádobí", 2],
+  ["vysat a pak jeste odepsat Petrovi", 2],
+  ["koupit sůl a pepř", 1],
+  ["umýt vanu i umyvadlo", 1]
+ ]
+}

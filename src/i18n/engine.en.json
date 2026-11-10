@@ -1,0 +1,752 @@
+{
+ "_note": "English source for the task-breakdown language packs. See TRANSLATING.md.",
+ "leadIns": [
+  "i need to",
+  "i have to",
+  "i want to",
+  "i should",
+  "i must",
+  "need to",
+  "have to",
+  "gotta",
+  "todo:",
+  "please"
+ ],
+ "then": [
+  "then",
+  "and then",
+  "after that",
+  "plus"
+ ],
+ "and": [
+  "and"
+ ],
+ "generic": [
+  "Write down what \"done\" looks like for: {task}",
+  "Gather what you need in one spot",
+  "Set a 10-minute timer",
+  "Do the easiest first bit",
+  "Keep going until the timer rings",
+  "Take a 2-minute break",
+  "Do the next small part",
+  "Check what's left and add steps for it",
+  "Wrap up and put things away"
+ ],
+ "templates": {
+  "shower": {
+   "kw_hint_english_regex": "\\b(take|have|get in|jump in) (a|the) (shower|bath)\\b",
+   "steps": [
+    "Put a towel and clean clothes in the bathroom",
+    "Turn the water on",
+    "Get in",
+    "Wash your hair",
+    "Wash your body",
+    "Turn the water off and dry off",
+    "Get dressed"
+   ]
+  },
+  "getready": {
+   "kw_hint_english_regex": "\\b(get ready|get dressed|morning routine|brush (your |my )?teeth|bedtime|go to bed|get up)\\b",
+   "steps": [
+    "Stand up and go to the bathroom",
+    "Brush your teeth",
+    "Wash or shower",
+    "Put on the clothes you picked",
+    "Grab keys, phone and wallet",
+    "Check the time"
+   ]
+  },
+  "dishes": {
+   "kw_hint_english_regex": "\\b(dish(es)?|washing[- ]up|dishwasher|kitchen|sink)\\b",
+   "steps": [
+    "Put on a song or podcast you like",
+    "Throw away any rubbish on the counters",
+    "Scrape leftover food into the bin",
+    "Load or wash the plates first",
+    "Then the cups and glasses",
+    "Then the cutlery",
+    "Leave pans to soak with hot soapy water",
+    "Wipe the counter next to the sink",
+    "Scrub the soaked pans",
+    "Empty the bin if it's full"
+   ]
+  },
+  "laundry": {
+   "kw_hint_english_regex": "\\b(laundry|washing machine|clothes|dryer|ironing|load of washing)\\b",
+   "steps": [
+    "Grab a basket or bag",
+    "Collect clothes from the floor and the hamper",
+    "Sort into darks and lights",
+    "Put one load in the machine with detergent",
+    "Press start and set a phone timer for when it ends",
+    "When it beeps, move the clothes to dry",
+    "Once dry, fold or hang just the tops first",
+    "Then the rest",
+    "Put everything away in drawers or the wardrobe"
+   ]
+  },
+  "room": {
+   "kw_hint_english_regex": "\\b(room|bedroom|house|flat|apartment|office|desk|garage|closet|wardrobe|cupboard|mess|declutter|tidy)\\b",
+   "steps": [
+    "Set a 10-minute timer",
+    "Grab a bin bag and a basket",
+    "Pick up anything that is rubbish and bin it",
+    "Put dirty clothes or dishes in the basket",
+    "Clear one surface completely",
+    "Put things on that surface back where they live",
+    "Pick one more small area and clear it",
+    "Take the basket where it belongs",
+    "Take out the bin bag",
+    "Stop and look at what you did"
+   ]
+  },
+  "bathroom": {
+   "kw_hint_english_regex": "\\b(bathroom|toilet|shower|bath ?tub|loo)\\b",
+   "steps": [
+    "Put on gloves and grab a cleaning spray and cloth",
+    "Clear bottles and stuff off the surfaces",
+    "Spray the sink, toilet and shower",
+    "Wipe the sink and taps",
+    "Scrub inside the toilet, then wipe the outside",
+    "Rinse the shower or bath",
+    "Put the bottles back",
+    "Swap in a clean towel"
+   ]
+  },
+  "vacuum": {
+   "kw_hint_english_regex": "\\b(vacuum|hoover|mop|sweep|floors?)\\b",
+   "steps": [
+    "Get the vacuum, mop or broom out",
+    "Pick up things lying on the floor",
+    "Start in the far corner of one room",
+    "Work toward the door",
+    "Do the next room the same way",
+    "Empty the vacuum or rinse the mop",
+    "Put everything away"
+   ]
+  },
+  "email": {
+   "kw_hint_english_regex": "\\b(e-?mails?|inbox)\\b",
+   "steps": [
+    "Open your inbox and nothing else",
+    "Set a 15-minute timer",
+    "Delete or archive anything you don't need",
+    "Star the emails that need a reply",
+    "Reply to the quickest one first, in two or three sentences",
+    "Reply to the next starred one",
+    "Note any that need more time",
+    "Close the inbox when the timer rings"
+   ]
+  },
+  "message": {
+   "kw_hint_english_regex": "\\b(messages?|reply to|respond to|get back to|dms?|whatsapps?|texts)\\b",
+   "steps": [
+    "Open the conversation",
+    "Read the last message once",
+    "Type a short first draft, it doesn't need to be perfect",
+    "Read it back once",
+    "Press send",
+    "Close the app"
+   ]
+  },
+  "call": {
+   "kw_hint_english_regex": "\\b(appointment|dentist|doctor|gp|vet|hairdresser|haircut|optician)\\b",
+   "steps": [
+    "Find the phone number or booking page",
+    "Write down what you need to say in one line",
+    "Have your calendar open for dates",
+    "Get any details they'll ask for (ID, account or reference number)",
+    "Dial or start the booking",
+    "Say your one line",
+    "Write down the date, time or outcome",
+    "Add it to your calendar"
+   ]
+  },
+  "phonecall": {
+   "kw_hint_english_regex": "call|phone|ring (someone, not an appointment)",
+   "steps": [
+    "Find the number",
+    "Write one line about why you're calling",
+    "Have your calendar and any reference number handy",
+    "Dial",
+    "Say your one line",
+    "Write down what you agreed"
+   ]
+  },
+  "essay": {
+   "kw_hint_english_regex": "\\b(essay|paper|report|thesis|dissertation|cover letter|speech)\\b",
+   "steps": [
+    "Open a blank document and give it a title",
+    "Write the question or brief at the top",
+    "Brain-dump every idea as bullet points for 5 minutes",
+    "Group the bullets into 3 to 5 sections",
+    "Write one rough sentence for each section",
+    "Expand the easiest section first",
+    "Fill in the next section",
+    "Write a short intro and ending",
+    "Read it through once and fix what jumps out",
+    "Save and submit or send"
+   ]
+  },
+  "homework": {
+   "kw_hint_english_regex": "\\b(homework|assignment|worksheet|coursework|problem set|project for (school|class))\\b",
+   "steps": [
+    "Find out exactly what's due and when",
+    "Get the book, laptop or sheet out on your desk",
+    "Read the instructions once",
+    "Do the first question or the easiest part",
+    "Take a 2-minute break",
+    "Do the next part",
+    "Mark anything you're stuck on and move on",
+    "Check your answers",
+    "Hand it in or put it in your bag"
+   ]
+  },
+  "study": {
+   "kw_hint_english_regex": "\\b(study|studying|revise|revision|exams?|quiz|flashcards?|learn|(maths?|science|history|driving|spelling|chemistry|biology|physics|french|spanish) test|test (for|on))\\b",
+   "steps": [
+    "Pick one topic for this session",
+    "Put your phone in another room",
+    "Set a 20-minute timer",
+    "Skim your notes on that topic",
+    "Close the notes and write down what you remember",
+    "Check what you missed",
+    "Make 5 flashcards or practice questions",
+    "Take a 5-minute break",
+    "Test yourself on the cards"
+   ]
+  },
+  "read": {
+   "kw_hint_english_regex": "\\b(read|reading|book|pages)\\b",
+   "steps": [
+    "Pick up the book and put your phone face down",
+    "Find where you stopped",
+    "Read just one page",
+    "Keep going for 10 minutes",
+    "Mark your place",
+    "Jot one line about what you read"
+   ]
+  },
+  "song": {
+   "kw_hint_english_regex": "\\b(songs?|lyrics|songwriting|verse|chorus)\\b",
+   "steps": [
+    "Open a notes app or grab a notebook",
+    "Write one line about what the song is about",
+    "Hum or play a few chords and record a voice memo",
+    "Pick the bit you like best as the chorus idea",
+    "Write rough lyrics for the chorus, rhymes optional",
+    "Write a first verse, it can be messy",
+    "Record a rough run-through on your phone",
+    "Listen back once and note one thing to change",
+    "Save it with a title, even a temporary one"
+   ]
+  },
+  "compose": {
+   "kw_hint_english_regex": "\\b(compose|composing|composition|melody|beats?|tracks?|music|score|symphony|piece|chord progression|daw|ableton|garageband|fl studio)\\b",
+   "steps": [
+    "Open your instrument or music app and start a blank project",
+    "Set a tempo and key, any will do",
+    "Record or write a 4-bar idea",
+    "Loop it and add one more layer (bass, chords or rhythm)",
+    "Make a variation for a second section",
+    "Arrange the sections in order",
+    "Export or record a rough version",
+    "Listen back once and write down one thing to fix",
+    "Save the project with today's date"
+   ]
+  },
+  "instrument": {
+   "kw_hint_english_regex": "\\b(guitar|piano|violin|viola|cello|drums?|ukulele|uke|bass|flute|clarinet|saxophone|sax|trumpet|trombone|harp|recorder|instrument|singing|sing|vocals?|scales)\\b",
+   "steps": [
+    "Get the instrument out and put it where you'll play",
+    "Tune up",
+    "Set a 15-minute timer",
+    "Warm up for 2 minutes (scales, chords or a vocal warm-up)",
+    "Play something you already know and enjoy",
+    "Pick one tricky bar or technique to work on",
+    "Play it slowly 5 times",
+    "Speed it up a little",
+    "Finish by playing something fun",
+    "Leave the instrument somewhere you'll see it"
+   ]
+  },
+  "fiction": {
+   "kw_hint_english_regex": "\\b(fiction|story|stories|short story|novel|novella|fanfic|fan fiction|screenplay|script|scene|chapter|plot|characters?)\\b",
+   "steps": [
+    "Open a blank document or notebook",
+    "Write one sentence about who wants what",
+    "Jot down where and when the scene happens",
+    "Set a 15-minute timer",
+    "Write the scene badly, without stopping to edit",
+    "Stop mid-sentence when the timer rings, so it's easy to restart",
+    "Take a short break",
+    "Read it back and highlight one line you like",
+    "Note what happens next in one line",
+    "Save the file"
+   ]
+  },
+  "poem": {
+   "kw_hint_english_regex": "\\b(poems?|poetry|haiku|sonnet|rap|spoken word)\\b",
+   "steps": [
+    "Pick one image, feeling or moment to write about",
+    "List 10 words connected to it",
+    "Write the first line without judging it",
+    "Keep writing lines for 5 minutes",
+    "Read it out loud",
+    "Cut the weakest lines",
+    "Choose a title",
+    "Save it"
+   ]
+  },
+  "nonfiction": {
+   "kw_hint_english_regex": "\\b(non-?fiction|memoir|biography|article|blog|blog post|newsletter|journal entry|op-ed|review|guide|how-to)\\b",
+   "steps": [
+    "Write the main point in one sentence",
+    "Brain-dump what you know as bullet points",
+    "Note what you need to check or look up",
+    "Put the bullets in order as headings",
+    "Write the easiest section first",
+    "Fill in the next section",
+    "Add a short intro and ending",
+    "Check facts and add sources",
+    "Read it through once and save"
+   ]
+  },
+  "bookwrite": {
+   "kw_hint_english_regex": "\\b(write a book|writing a book|my book)\\b",
+   "steps": [
+    "Write what the book is about in one sentence",
+    "List the main parts or chapters, one line each",
+    "Pick one chapter to start, not necessarily the first",
+    "Set a 20-minute timer",
+    "Write without editing until it rings",
+    "Note where you stopped and what comes next",
+    "Save the file with a clear name",
+    "Put your next writing session in your calendar"
+   ]
+  },
+  "art": {
+   "kw_hint_english_regex": "\\b(draw|drawing|paint|painting|sketch|sketchbook|sketching|illustrat\\w*|art|artwork|comic|doodle|watercolou?r|portrait|canvas)\\b",
+   "steps": [
+    "Get your paper, canvas or tablet and tools out",
+    "Pick a subject, or draw what's in front of you",
+    "Do a 2-minute warm-up doodle",
+    "Sketch the big shapes lightly",
+    "Add the main details",
+    "Add colour or shading",
+    "Step back and look for one thing to adjust",
+    "Sign and date it",
+    "Clean brushes and put things away"
+   ]
+  },
+  "video": {
+   "kw_hint_english_regex": "\\b(videos?|youtube|vlog|film|filming|tiktok|reel|footage|podcast|episode|animation)\\b",
+   "steps": [
+    "Write what it's about in one sentence",
+    "List the shots or talking points",
+    "Set up your camera, phone or mic and check the sound",
+    "Record the first shot or point",
+    "Record the rest, one at a time",
+    "Import the clips",
+    "Make a rough cut",
+    "Add titles and music",
+    "Export it and watch or listen once",
+    "Upload or save it"
+   ]
+  },
+  "craft": {
+   "kw_hint_english_regex": "\\b(knit|knitting|crochet|sew|sewing|embroider\\w*|crafts?|pottery|origami|quilt\\w*|scrapbook\\w*|woodwork\\w*)\\b",
+   "steps": [
+    "Get your materials and pattern out",
+    "Clear a space with good light",
+    "Read the next part of the pattern or plan",
+    "Set a 20-minute timer",
+    "Work on just that part",
+    "Mark where you stopped",
+    "Put loose ends and tools away"
+   ]
+  },
+  "taxes": {
+   "kw_hint_english_regex": "\\b(tax(es)?|tax return|self[- ]assessment|irs|hmrc)\\b",
+   "steps": [
+    "Find the deadline and write it down",
+    "Make a folder for tax papers",
+    "Gather income documents (payslips, W-2 or P60, 1099s)",
+    "Gather receipts for anything you can deduct",
+    "Log in to the tax website or software",
+    "Fill in your personal details",
+    "Enter your income",
+    "Enter deductions",
+    "Review the summary",
+    "Submit and save the confirmation"
+   ]
+  },
+  "bills": {
+   "kw_hint_english_regex": "\\b(bills?|invoice|rent|pay|payment|bank|budget|finances|money)\\b",
+   "steps": [
+    "Open your banking app or the bill",
+    "List what's due and the dates",
+    "Pick the one due soonest",
+    "Pay it",
+    "Save or screenshot the confirmation",
+    "Do the next one",
+    "Set reminders for future due dates"
+   ]
+  },
+  "paperwork": {
+   "kw_hint_english_regex": "\\b(form|forms|paperwork|documents?|application form|passport|visa|licen[cs]e|insurance|claim|admin)\\b",
+   "steps": [
+    "Find the form or website",
+    "Read what documents they need",
+    "Gather those documents in one place",
+    "Fill in the easy parts (name, address, dates)",
+    "Fill in the next section",
+    "Note any question you can't answer and look it up",
+    "Check it once",
+    "Submit or post it",
+    "Save a copy or the confirmation"
+   ]
+  },
+  "job": {
+   "kw_hint_english_regex": "\\b(job|jobs|resume|cv|application|apply|interview|linkedin)\\b",
+   "steps": [
+    "Open the job ad and your CV side by side",
+    "Highlight the 3 things they want most",
+    "Update your CV to show those 3 things",
+    "Write a short cover note, 3 short paragraphs",
+    "Fill in the application form",
+    "Attach your CV",
+    "Read it once and submit",
+    "Write down the date you applied"
+   ]
+  },
+  "groceries": {
+   "kw_hint_english_regex": "\\b(grocer(y|ies)|food shop|shopping|supermarket|the store|shop for|milk|eggs|bread|fruit|veg|vegetables|snacks)\\b",
+   "steps": [
+    "Check the fridge and cupboards",
+    "Write a list of what you're out of",
+    "Add what you need for the next few meals",
+    "Grab bags, keys and wallet, or open the delivery app",
+    "Get the items on the list",
+    "Pay",
+    "Put cold things away first, then the rest"
+   ]
+  },
+  "buy": {
+   "kw_hint_english_regex": "buy|order|get (one specific thing, not the weekly food shop)",
+   "steps": [
+    "Check whether you already have it",
+    "Decide where to get it",
+    "Set a budget",
+    "Find it in the shop or online",
+    "Buy it",
+    "Put it where it belongs"
+   ]
+  },
+  "cook": {
+   "kw_hint_english_regex": "\\b(cook|cooking|dinner|lunch|breakfast|meal|recipe|bake|baking|cake)\\b",
+   "steps": [
+    "Pick what you're making",
+    "Check you have the ingredients",
+    "Clear a space on the counter",
+    "Get out the pans and tools",
+    "Wash and chop the ingredients",
+    "Start cooking the part that takes longest",
+    "Set a timer",
+    "Cook the rest",
+    "Serve it up",
+    "Put pans to soak"
+   ]
+  },
+  "errands": {
+   "kw_hint_english_regex": "\\b(errands?|chores)\\b",
+   "steps": [
+    "Write every errand on one list",
+    "Put them in an order that makes one loop",
+    "Grab keys, wallet, phone and anything to drop off",
+    "Do the first errand",
+    "Tick it off and do the next",
+    "Head home and put things away"
+   ]
+  },
+  "exercise": {
+   "kw_hint_english_regex": "\\b(exercise|workout|work out|gym|run|running|jog|yoga|walk|stretch|swim)\\b",
+   "steps": [
+    "Put on your workout clothes and shoes",
+    "Fill a water bottle",
+    "Pick one short routine or route",
+    "Warm up for 3 minutes",
+    "Do the first part",
+    "Keep going for the rest of it",
+    "Cool down and stretch",
+    "Drink water"
+   ]
+  },
+  "pack": {
+   "kw_hint_english_regex": "\\b(pack|packing|suitcase|trip|holiday|vacation|travel|move house|moving|flights?|hotel)\\b",
+   "steps": [
+    "Get the bag or boxes out",
+    "Write a quick list (clothes, toiletries, chargers, documents)",
+    "Pack clothes first",
+    "Pack toiletries",
+    "Pack chargers and electronics",
+    "Put passport, tickets or keys in one pocket",
+    "Check the list once",
+    "Put the bag by the door"
+   ]
+  },
+  "presentation": {
+   "kw_hint_english_regex": "\\b(presentation|slides|slide deck|powerpoint|pitch|(give|prepare|practise|practice) a talk)\\b",
+   "steps": [
+    "Write the one main message in a sentence",
+    "List 3 to 5 points that support it",
+    "Make one slide per point, titles only",
+    "Add a few words or one image to each slide",
+    "Make a title slide and a closing slide",
+    "Practise out loud once",
+    "Fix the parts that felt clumsy",
+    "Save and send or upload it"
+   ]
+  },
+  "garden": {
+   "kw_hint_english_regex": "\\b(garden|yard|lawn|mow|weeds?|plants?|rake|leaves)\\b",
+   "steps": [
+    "Put on shoes and gloves",
+    "Get the tools out",
+    "Pick one patch to start with",
+    "Do that patch",
+    "Move to the next patch",
+    "Bag up the waste",
+    "Put the tools away"
+   ]
+  },
+  "car": {
+   "kw_hint_english_regex": "\\b(car serviced|car service|servic(e|ed|ing) (the|my|your) car|oil change|mot|tyres?|tires?|car insurance)\\b",
+   "steps": [
+    "Find the car's paperwork or the garage number",
+    "Decide what needs doing",
+    "Book a time or get the supplies",
+    "Clear rubbish out of the car",
+    "Do it, or take it in",
+    "Note the date and the next due date"
+   ]
+  },
+  "booking": {
+   "kw_hint_english_regex": "\\b(book|reserve|reservation)\\b",
+   "steps": [
+    "Decide the dates and your budget",
+    "Open two sites or apps to compare",
+    "Pick the option that fits best",
+    "Enter your details",
+    "Pay",
+    "Save the confirmation",
+    "Add it to your calendar"
+   ]
+  },
+  "fix": {
+   "kw_hint_english_regex": "\\b(fix|repair|mend|broken|install|assemble|put together|replace)\\b",
+   "steps": [
+    "Look at what's wrong and describe it in one line",
+    "Search for a how-to guide or video",
+    "Gather the tools and parts",
+    "Clear a space to work",
+    "Do the first step of the guide",
+    "Do the next steps one at a time",
+    "Test that it works",
+    "Put the tools away"
+   ]
+  },
+  "plan": {
+   "kw_hint_english_regex": "\\b(plan|planning|organi[sz]e|schedule|party|event|wedding|birthday)\\b",
+   "steps": [
+    "Write what you're planning in one sentence",
+    "Pick a date or deadline",
+    "List everything that needs to happen",
+    "Put the list in order",
+    "Do the first item now",
+    "Put the rest in your calendar",
+    "Tell anyone who needs to know"
+   ]
+  }
+ },
+ "examples": {
+  "shower": [
+   "take a shower",
+   "have a quick shower"
+  ],
+  "getready": [
+   "get ready for work",
+   "go to bed"
+  ],
+  "dishes": [
+   "do the dishes",
+   "clean the kitchen"
+  ],
+  "laundry": [
+   "do laundry",
+   "wash my clothes"
+  ],
+  "room": [
+   "clean my room",
+   "tidy the house"
+  ],
+  "bathroom": [
+   "clean the bathroom",
+   "scrub the toilet"
+  ],
+  "vacuum": [
+   "vacuum the living room",
+   "mop the floor"
+  ],
+  "email": [
+   "answer emails",
+   "clear my inbox"
+  ],
+  "message": [
+   "reply to messages",
+   "answer my messages"
+  ],
+  "call": [
+   "book a dentist appointment",
+   "make a doctor appointment"
+  ],
+  "phonecall": [
+   "call mum",
+   "phone the bank"
+  ],
+  "essay": [
+   "write my essay",
+   "write a report"
+  ],
+  "homework": [
+   "do my homework",
+   "finish the maths assignment"
+  ],
+  "study": [
+   "study for my exam",
+   "revise biology"
+  ],
+  "read": [
+   "read a book",
+   "read 20 pages"
+  ],
+  "song": [
+   "write a song",
+   "write lyrics for my song"
+  ],
+  "compose": [
+   "compose music",
+   "make a beat"
+  ],
+  "instrument": [
+   "practise guitar",
+   "play the piano"
+  ],
+  "fiction": [
+   "write a short story",
+   "work on my novel"
+  ],
+  "poem": [
+   "write a poem",
+   "write a haiku"
+  ],
+  "nonfiction": [
+   "write a blog post",
+   "write my memoir"
+  ],
+  "bookwrite": [
+   "write a book",
+   "start writing my book"
+  ],
+  "art": [
+   "draw a portrait",
+   "paint a picture"
+  ],
+  "video": [
+   "make a YouTube video",
+   "record a podcast episode"
+  ],
+  "craft": [
+   "knit a scarf",
+   "sew a button"
+  ],
+  "taxes": [
+   "do my taxes",
+   "file my tax return"
+  ],
+  "bills": [
+   "pay bills",
+   "pay the rent"
+  ],
+  "paperwork": [
+   "renew my passport",
+   "fill in the insurance form"
+  ],
+  "job": [
+   "apply for a job",
+   "update my CV"
+  ],
+  "groceries": [
+   "buy groceries",
+   "go food shopping"
+  ],
+  "buy": [
+   "buy a gift for dad",
+   "order a new phone charger"
+  ],
+  "cook": [
+   "cook dinner",
+   "bake a cake"
+  ],
+  "errands": [
+   "run errands",
+   "do my chores"
+  ],
+  "exercise": [
+   "go for a run",
+   "go to the gym"
+  ],
+  "pack": [
+   "pack my suitcase",
+   "pack for my trip"
+  ],
+  "presentation": [
+   "make a presentation",
+   "prepare slides"
+  ],
+  "garden": [
+   "mow the lawn",
+   "water the plants"
+  ],
+  "car": [
+   "get the car serviced",
+   "change the tyres"
+  ],
+  "booking": [
+   "book a flight to Rome",
+   "reserve a table"
+  ],
+  "fix": [
+   "fix the leaky tap",
+   "assemble the bookshelf"
+  ],
+  "plan": [
+   "plan a birthday party",
+   "organise the wedding"
+  ]
+ },
+ "compound": [
+  [
+   "clean my room and call mum, then pay the rent",
+   3
+  ],
+  [
+   "do the laundry and the dishes",
+   2
+  ],
+  [
+   "buy salt and pepper",
+   1
+  ]
+ ]
+}

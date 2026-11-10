@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}">
+<head>
+{{{page.head}}}
+</head>
+<body>
+<div class="page">
+{{{page.topbar}}}
+  <main id="main">
+  <header class="phead">
+    <h1>{{common.contact_title}}</h1>
+    <p class="note">{{page.contact_intro}}</p>
+  </header>
+  <form class="cform" id="cform" action="https://formspree.io/f/xbgjaeal" method="POST">
+    <input type="hidden" name="_subject" value="New message from {{site.name}} ({{meta.code}})">
+    <input type="hidden" name="site" value="{{site.name}}">
+    <input type="hidden" name="language" value="{{meta.name}} ({{meta.code}})">
+    <p class="hp"><label for="c-gotcha">{{common.hp}}</label><input id="c-gotcha" name="_gotcha" tabindex="-1" autocomplete="off"></p>
+    <div class="field">
+      <label for="c-name">{{common.f_name}} <span class="opt">{{common.optional}}</span></label>
+      <input type="text" id="c-name" name="name" autocomplete="name" maxlength="100">
+    </div>
+    <div class="field">
+      <label for="c-email">{{common.f_email}} <span class="opt">{{common.f_email_hint}}</span></label>
+      <input type="email" id="c-email" name="email" autocomplete="email" maxlength="200">
+    </div>
+    <div class="field">
+      <label for="c-topic">{{common.f_topic}}</label>
+      <select id="c-topic" name="topic">
+        <option value="Mistake">{{common.topic_mistake}}</option>
+        <option value="Idea">{{common.topic_idea}}</option>
+        <option value="Not working">{{common.topic_broken}}</option>
+        <option value="Translation">{{common.topic_translation}}</option>
+        <option value="Other">{{common.topic_other}}</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="c-message">{{common.f_message}}</label>
+      <textarea id="c-message" name="message" required maxlength="5000"></textarea>
+    </div>
+{{{page.contact_note}}}
+    <p class="formmsg" id="formmsg" role="status" aria-live="polite"></p>
+    <div><button type="submit" class="primary" id="sendBtn">{{common.send}}</button></div>
+  </form>
+  </main>
+  <p class="credit">{{common.credit}}</p>
+</div>
+<script>window.SITE = {{{page.site_json}}};</script>
+<script src="/assets/site.js"></script>
+<script>
+// Send via Formspree in the background, then show the thank-you page.
+// Without JavaScript the form still posts to Formspree normally.
+(function () {
+  var f = document.getElementById("cform"), msg = document.getElementById("formmsg"), btn = document.getElementById("sendBtn"), M = window.SITE.msg;
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!f.message.value.trim()) { msg.className = "formmsg err"; msg.textContent = M.err_empty; f.message.focus(); return; }
+    btn.disabled = true; msg.className = "formmsg"; msg.textContent = M.sending;
+    fetch(f.action, { method: "POST", body: new FormData(f), headers: { Accept: "application/json" } })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); window.location.href = M.thanks; })
+      .catch(function () { btn.disabled = false; msg.className = "formmsg err"; msg.textContent = M.err_send; });
+  });
+})();
+</script>
+</body>
+</html>

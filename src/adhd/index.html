@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}">
+<head>
+{{{page.head}}}
+</head>
+<body>
+<div class="wrap">
+{{{page.topbar}}}
+  <main id="main">
+  <header class="hero">
+    <span class="eyebrow">{{t.eyebrow}}</span>
+    <h1>{{{t.h1_html}}}</h1>
+    <p class="lede">{{t.lede}}</p>
+  </header>
+
+  <div class="grid">
+    <div class="col">
+      <section class="panel now" aria-labelledby="now-h">
+        <div class="row between">
+          <span class="eyebrow" id="now-h">{{t.now_label}}</span>
+          <span class="today" id="today"></span>
+        </div>
+        <div class="now-step" id="nowStep" aria-live="polite"></div>
+        <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+        <div class="row">
+          <button class="primary" id="doneBtn" type="button">{{t.done_btn}}</button>
+          <button id="skipBtn" type="button">{{t.skip_btn}}</button>
+        </div>
+        <button class="linkish" id="smallerBtn" type="button" aria-expanded="false" aria-controls="smallerForm">{{t.smaller_btn}}</button>
+        <form class="add" id="smallerForm" hidden>
+          <label for="smallerInput" class="vh">{{t.smaller_btn}}</label>
+          <input type="text" id="smallerInput" placeholder="{{t.smaller_ph}}" autocomplete="off" maxlength="200">
+          <button type="submit">{{t.add}}</button>
+        </form>
+        <div class="celebrate" id="cheer" aria-live="polite"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="plan-h">
+        <div class="row between">
+          <h2 id="plan-h">{{t.plan_h}}</h2>
+          <button class="small ghost" id="newTask" type="button">{{t.new_task}}</button>
+        </div>
+        <label for="taskName" class="eyebrow">{{t.big_task}}</label>
+        <form class="add" id="splitForm">
+          <input type="text" id="taskName" placeholder="{{t.task_ph}}" autocomplete="off" maxlength="200">
+          <button type="submit" class="primary" id="splitBtn">{{t.split_btn}}</button>
+        </form>
+        <div class="suggest" id="suggest" hidden>
+          <div class="row between">
+            <span class="eyebrow" id="suggestTitle">{{t.sugg_title}}</span>
+            <span class="tiny">{{t.sugg_note}}</span>
+          </div>
+          <ul class="sugg" id="suggList"></ul>
+          <div class="row" id="suggActions"></div>
+        </div>
+        <p class="hint">{{t.own_hint}}</p>
+        <form class="add" id="stepForm">
+          <label for="stepInput" class="vh">{{t.step_label}}</label>
+          <input type="text" id="stepInput" placeholder="{{t.step_ph}}" autocomplete="off" maxlength="200">
+          <button type="submit">{{t.add}}</button>
+        </form>
+        <ol class="steps" id="steps"></ol>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="panel timer" aria-labelledby="timer-h">
+        <h2 id="timer-h">{{t.timer_h}}</h2>
+        <div class="dial" id="dial" role="img"></div>
+        <div class="time" id="time">10:00</div>
+        <div class="ends" id="ends" aria-live="polite"></div>
+        <div class="row presets center" id="presets"></div>
+        <form class="row center custom" id="customForm" novalidate>
+          <label for="customMin">{{t.custom_label}}</label>
+          <input type="number" id="customMin" min="1" max="180" step="1" inputmode="numeric">
+          <button type="submit" class="small">{{t.set}}</button>
+        </form>
+        <div class="row center">
+          <button class="primary" id="startBtn" type="button">{{t.start}}</button>
+          <button id="resetBtn" type="button">{{t.reset}}</button>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="stuck-h">
+        <h2 id="stuck-h">{{t.stuck_h}}</h2>
+        <p class="starter" id="starter" aria-live="polite">{{page.starter0}}</p>
+        <div><button id="starterBtn" type="button">{{t.starter_btn}}</button></div>
+      </section>
+
+      <section class="panel" aria-labelledby="dump-h">
+        <h2 id="dump-h">{{t.park_h}}</h2>
+        <p class="hint">{{t.park_p}}</p>
+        <form class="add" id="dumpForm">
+          <label for="dumpInput" class="vh">{{t.park_label}}</label>
+          <input type="text" id="dumpInput" placeholder="{{t.park_ph}}" autocomplete="off" maxlength="200">
+          <button type="submit">{{t.park_btn}}</button>
+        </form>
+        <ul class="dump" id="dump"></ul>
+        <div class="row" id="clearRow"></div>
+      </section>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    <p>{{t.foot_auto}}</p>
+    <p>{{{t.foot_disclaimer_html}}}</p>
+    <p><button class="linkish" id="clearData" type="button" data-confirm="{{common.clear_confirm}}">{{common.clear_data}}</button></p>
+  </footer>
+  <p class="credit">{{common.credit}} <a href="{{p.contact}}">{{common.credit_link}}</a></p>
+</div>
+<script>window.SITE = {{{page.site_json}}}; window.T = {{{page.t_json}}};</script>
+{{{page.engine}}}
+<script src="/assets/site.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>

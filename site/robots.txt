@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://one-step-now-adhd.netlify.app/sitemap.xml

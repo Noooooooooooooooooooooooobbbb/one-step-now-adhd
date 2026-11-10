@@ -1,0 +1,655 @@
+{
+ "cjk": false,
+ "leadIns": [
+  "eu preciso de",
+  "eu preciso",
+  "preciso de",
+  "preciso",
+  "eu tenho que",
+  "eu tenho de",
+  "tenho que",
+  "tenho de",
+  "eu quero",
+  "quero",
+  "queria",
+  "gostaria de",
+  "eu devo",
+  "devo",
+  "deveria",
+  "devia",
+  "vou ter que",
+  "vou ter de",
+  "eu vou",
+  "vou",
+  "hoje preciso de",
+  "hoje preciso",
+  "hoje tenho que",
+  "hoje tenho de",
+  "hoje vou",
+  "hoje quero",
+  "ainda preciso",
+  "ainda tenho que",
+  "ainda tenho de",
+  "falta",
+  "a fazer:",
+  "para fazer:",
+  "pra fazer:",
+  "tarefa:",
+  "todo:",
+  "por favor"
+ ],
+ "then": [
+  "e depois",
+  "depois disso",
+  "em seguida",
+  "a seguir",
+  "e então",
+  "então",
+  "e também",
+  "também",
+  "além disso",
+  "por fim",
+  "por último"
+ ],
+ "and": [
+  "e"
+ ],
+ "generic": [
+  "Escreva o que significa \"terminar\" esta tarefa: {task}",
+  "Junte o que você precisa em um só lugar",
+  "Marque 10 minutos no timer",
+  "Faça primeiro a parte mais fácil",
+  "Continue até o timer tocar",
+  "Faça uma pausa de 2 minutos",
+  "Faça a próxima parte pequena",
+  "Veja o que falta e adicione passos para isso",
+  "Finalize e guarde as coisas"
+ ],
+ "templates": {
+  "shower": {
+   "kw": ["tomar banho$", "tomar um banho$", "tomar meu banho$", "tomar o meu banho$", "um banho$", "meu banho$", "banho rápido", "banho quente", "entrar no banho$", "ir pro banho$", "ir para o banho$", "entrar no chuveiro", "tomar uma ducha", "tomar ducha", "uma ducha$", "tomar um duche", "tomar duche", "um duche$", "chuveirada"],
+   "steps": [
+    "Leve uma toalha e roupa limpa para o banheiro",
+    "Ligue o chuveiro",
+    "Entre",
+    "Lave o cabelo",
+    "Lave o corpo",
+    "Desligue o chuveiro e enxugue o corpo",
+    "Vista a roupa"
+   ]
+  },
+  "getready": {
+   "kw": ["me arrumar", "arrumar-me", "me aprontar", "aprontar-me", "me preparar para sair", "me preparar pra sair", "preparar-me para sair", "me vestir", "vestir-me", "trocar de roupa", "escovar os dentes", "escovar dentes", "lavar os dentes", "rotina da manhã", "rotina de manhã", "rotina matinal", "rotina da noite", "hora de dormir", "ir dormir", "ir para a cama", "ir pra cama", "ir deitar", "me deitar", "deitar-me", "sair da cama", "levantar da cama", "me levantar", "levantar-me"],
+   "steps": [
+    "Levante-se e vá até o banheiro",
+    "Escove os dentes",
+    "Lave o rosto ou tome um banho",
+    "Vista a roupa que você escolheu",
+    "Pegue chaves, telefone e carteira",
+    "Olhe as horas"
+   ]
+  },
+  "dishes": {
+   "kw": ["louça", "loiça", "pratos$", "lava-louça", "lava-loiça", "lava louça", "lava loiça", "máquina de lavar louça", "máquina de lavar loiça", "máquina da louça", "máquina da loiça", "cozinha$", "arrumar a cozinha", "pia$", "panelas", "talheres", "copos$"],
+   "steps": [
+    "Coloque uma música ou um podcast de que você gosta",
+    "Jogue fora o lixo que estiver nas bancadas",
+    "Raspe os restos de comida para o lixo",
+    "Comece pelos pratos: lave ou coloque na máquina",
+    "Depois os copos e as canecas",
+    "Depois os talheres",
+    "Deixe as panelas de molho com água quente e detergente",
+    "Passe um pano na bancada ao lado da pia",
+    "Esfregue as panelas que ficaram de molho",
+    "Esvazie o lixo se estiver cheio"
+   ]
+  },
+  "laundry": {
+   "kw": ["lavar roupa", "lavar a roupa", "lavar as roupas", "lavar minha roupa", "lavar a minha roupa", "lavar minhas roupas", "lavar as minhas roupas", "roupa suja", "roupas sujas", "roupa lavada", "roupa pra lavar", "roupa para lavar", "roupa na máquina", "roupa da máquina", "roupa a secar", "roupa pra secar", "roupa para secar", "roupa no varal", "roupa do varal", "pôr a roupa", "pôr roupa", "botar roupa", "botar a roupa", "colocar roupa", "colocar a roupa", "guardar a roupa", "guardar as roupas", "guardar roupa", "recolher a roupa", "apanhar a roupa", "tirar a roupa da", "tirar a roupa do", "separar a roupa", "separar as roupas", "passar a roupa", "roupa de cama", "lavanderia", "lavandaria", "máquina de lavar", "secadora", "máquina de secar", "varal", "estendal", "estender", "passar a ferro", "passar roupa", "engomar", "dobrar", "lençóis", "toalhas"],
+   "steps": [
+    "Pegue um cesto ou um saco",
+    "Recolha as roupas do chão e do cesto de roupa suja",
+    "Separe as escuras das claras",
+    "Coloque uma leva na máquina com o sabão",
+    "Aperte iniciar e programe um alarme no telefone para quando terminar",
+    "Quando apitar, coloque as roupas para secar",
+    "Quando secarem, dobre ou pendure primeiro só as blusas e camisas",
+    "Depois o resto",
+    "Guarde tudo nas gavetas ou no armário"
+   ]
+  },
+  "room": {
+   "kw": ["quarto", "casa$", "apartamento", "apê$", "escritório", "escrivaninha", "secretária$", "minha mesa", "mesa de trabalho", "garagem", "armário", "guarda-roupa", "guarda roupa", "roupeiro", "despensa", "sala$", "bagunça", "tralha", "destralhar", "arrum", "faxina"],
+   "steps": [
+    "Marque 10 minutos no timer",
+    "Pegue um saco de lixo e um cesto",
+    "Recolha tudo o que for lixo e jogue fora",
+    "Coloque roupa suja e louça no cesto",
+    "Libere uma superfície por completo",
+    "Guarde no lugar as coisas que estavam nela",
+    "Escolha mais um cantinho e libere também",
+    "Leve o cesto para onde ele deve ir",
+    "Leve o saco de lixo para fora",
+    "Pare e olhe o que você fez"
+   ]
+  },
+  "bathroom": {
+   "kw": ["banheiro", "casa de banho", "privada", "vaso sanitário", "sanita", "retrete", "banheira", "box$", "chuveiro", "duche$", "ducha$", "lavabo", "wc$"],
+   "steps": [
+    "Coloque luvas e pegue um produto de limpeza e um pano",
+    "Tire os frascos e as coisas de cima das superfícies",
+    "Borrife o produto na pia, no vaso sanitário e no chuveiro",
+    "Limpe a pia e as torneiras",
+    "Esfregue o vaso por dentro e depois limpe por fora",
+    "Enxágue o chuveiro ou a banheira",
+    "Coloque os frascos de volta",
+    "Troque a toalha por uma limpa"
+   ]
+  },
+  "vacuum": {
+   "kw": ["aspirar", "aspirador", "varrer", "vassoura", "esfregona", "esfregão", "passar pano", "passar o pano", "passar um pano no chão", "chão$", "piso$", "rodo$", "mop$"],
+   "steps": [
+    "Pegue o aspirador, o esfregão ou a vassoura",
+    "Recolha o que estiver espalhado pelo chão",
+    "Comece por um cômodo, no canto mais distante da porta",
+    "Vá avançando em direção à porta",
+    "Faça o próximo cômodo do mesmo jeito",
+    "Esvazie o aspirador ou enxágue o esfregão",
+    "Guarde tudo"
+   ]
+  },
+  "email": {
+   "kw": ["email", "e-mail", "e mail$", "e mails$", "caixa de entrada", "inbox", "correio eletrônico", "responder email", "responder e-mail", "responder o email", "responder o e-mail", "responder os email", "responder os e-mail", "responder ao email", "responder ao e-mail", "responder aos email", "responder aos e-mail", "responder um email", "responder um e-mail", "responder meus email", "responder meus e-mail", "responder os meus email", "responder os meus e-mail", "responder aos meus email", "responder aos meus e-mail", "responder a email", "responder a e-mail"],
+   "steps": [
+    "Abra a caixa de entrada e mais nada",
+    "Marque 15 minutos no timer",
+    "Apague ou arquive o que você não precisa",
+    "Marque com estrela os e-mails que precisam de resposta",
+    "Responda primeiro ao mais rápido, em duas ou três frases",
+    "Responda ao próximo marcado",
+    "Anote os que precisam de mais tempo",
+    "Feche a caixa de entrada quando o timer tocar"
+   ]
+  },
+  "message": {
+   "kw": ["mensag", "msg", "responder", "dar retorno", "whatsapp", "whats$", "zap$", "wpp$", "sms$", "dm$", "dms$", "direct$", "telegram", "áudio$", "áudios$"],
+   "steps": [
+    "Abra a conversa",
+    "Leia a última mensagem uma vez",
+    "Escreva um rascunho curto, não precisa ficar perfeito",
+    "Releia uma vez",
+    "Aperte enviar",
+    "Feche o app"
+   ]
+  },
+  "call": {
+   "kw": ["consulta", "dentista", "médico$", "médica$", "médicos$", "doutor", "veterin", "cabeleireir", "cabelereir", "corte de cabelo", "cortar o cabelo", "barbeiro", "oculista", "oftalmo", "psicólog", "psiquiatra", "terapeuta", "terapia", "dermatolog", "ginecolog", "pediatra", "exame de sangue", "exames de sangue", "exame médico", "exames médicos", "vacina", "manicure"],
+   "steps": [
+    "Encontre o número de telefone ou a página de agendamento",
+    "Escreva em uma linha o que você precisa dizer",
+    "Deixe sua agenda aberta para ver as datas",
+    "Separe os dados que vão pedir (documento, número de cliente ou de referência)",
+    "Ligue ou comece o agendamento",
+    "Diga a sua frase",
+    "Anote a data, o horário ou o que ficou combinado",
+    "Coloque na sua agenda"
+   ]
+  },
+  "phonecall": {
+   "kw": ["ligar para", "ligar pra", "ligar pro", "ligar a$", "ligar ao$", "ligar aos$", "ligar no$", "ligar na$", "ligar de volta", "ligaç", "dar uma ligada", "telefon", "chamada"],
+   "steps": [
+    "Encontre o número",
+    "Escreva em uma linha o motivo da ligação",
+    "Deixe à mão a agenda e qualquer número de referência",
+    "Ligue",
+    "Diga a sua frase",
+    "Anote o que ficou combinado"
+   ]
+  },
+  "essay": {
+   "kw": ["redação", "redações", "relatório", "tese$", "dissertaç", "tcc$", "monografia", "trabalho escrito", "escrever um ensaio", "escrever o ensaio", "ensaio sobre", "ensaio acadêmico", "carta de apresentação", "carta de motivação", "discurso", "paper$"],
+   "steps": [
+    "Abra um documento em branco e dê um título",
+    "Escreva a pergunta ou o enunciado no topo",
+    "Despeje todas as ideias em tópicos durante 5 minutos",
+    "Agrupe os tópicos em 3 a 5 seções",
+    "Escreva uma frase provisória para cada seção",
+    "Desenvolva primeiro a seção mais fácil",
+    "Preencha a seção seguinte",
+    "Escreva uma introdução e uma conclusão curtas",
+    "Leia tudo uma vez e corrija o que saltar aos olhos",
+    "Salve e entregue ou envie"
+   ]
+  },
+  "homework": {
+   "kw": ["dever de casa", "deveres", "lição", "lições", "tarefa de casa", "tarefa$", "trabalho de casa", "trabalhos de casa", "tpc$", "trabalho da escola", "trabalho de escola", "trabalho da faculdade", "trabalho de grupo", "trabalho em grupo", "lista de exercícios", "exercícios de", "exercícios da", "exercícios do", "ficha de", "apostila"],
+   "steps": [
+    "Descubra exatamente o que é para entregar e quando",
+    "Coloque o livro, o computador ou a folha em cima da mesa",
+    "Leia as instruções uma vez",
+    "Faça a primeira questão ou a parte mais fácil",
+    "Faça uma pausa de 2 minutos",
+    "Faça a parte seguinte",
+    "Marque onde você travou e siga em frente",
+    "Confira suas respostas",
+    "Entregue ou guarde na mochila"
+   ]
+  },
+  "study": {
+   "kw": ["estud", "revis", "rever a matéria", "rever matéria", "prova$", "provas$", "exame$", "exames$", "teste$", "testes$", "vestibular", "enem$", "concurso", "simulado", "flashcard", "aprender", "memorizar", "resumo$", "resumos$"],
+   "steps": [
+    "Escolha um único assunto para esta sessão",
+    "Deixe o telefone em outro cômodo",
+    "Marque 20 minutos no timer",
+    "Passe os olhos pelas suas anotações sobre o assunto",
+    "Feche as anotações e escreva o que você lembra",
+    "Veja o que ficou faltando",
+    "Faça 5 flashcards ou perguntas de treino",
+    "Faça uma pausa de 5 minutos",
+    "Teste sua memória com os flashcards"
+   ]
+  },
+  "read": {
+   "kw": ["ler$", "reler$", "leitura", "livro", "página", "paginas$", "lendo$"],
+   "steps": [
+    "Pegue o livro e deixe o telefone virado para baixo",
+    "Encontre onde você parou",
+    "Leia só uma página",
+    "Continue por 10 minutos",
+    "Marque a página",
+    "Anote uma linha sobre o que leu"
+   ]
+  },
+  "song": {
+   "kw": ["canção", "canções", "letra$", "letras$", "letra de", "letra da", "refrão", "estrofe", "verso$", "escrever uma música", "escrever a música", "escrever música", "escrever minha música", "escrever a minha música", "escrever músicas", "compor uma canção", "compor canç", "compor a letra"],
+   "steps": [
+    "Abra um app de notas ou pegue um caderno",
+    "Escreva em uma linha sobre o que é a música",
+    "Cantarole ou toque alguns acordes e grave um áudio",
+    "Escolha o trecho de que você mais gosta como ideia de refrão",
+    "Escreva uma letra provisória para o refrão, rimar é opcional",
+    "Escreva uma primeira estrofe, pode ficar bagunçada",
+    "Grave uma versão de teste no telefone",
+    "Ouça uma vez e anote uma coisa para mudar",
+    "Salve com um título, mesmo que provisório"
+   ]
+  },
+  "compose": {
+   "kw": ["compor", "composiç", "melodia", "beat$", "beats$", "batida", "música", "partitura", "sinfonia", "arranjo", "acordes", "trilha sonora", "banda sonora", "instrumental", "daw$", "ableton", "garageband", "fl studio"],
+   "steps": [
+    "Abra seu instrumento ou app de música e comece um projeto em branco",
+    "Defina um andamento e um tom, qualquer um serve",
+    "Grave ou escreva uma ideia de 4 compassos",
+    "Coloque em loop e acrescente mais uma camada (baixo, acordes ou ritmo)",
+    "Crie uma variação para uma segunda parte",
+    "Organize as partes em ordem",
+    "Exporte ou grave uma versão provisória",
+    "Ouça uma vez e anote uma coisa para corrigir",
+    "Salve o projeto com a data de hoje"
+   ]
+  },
+  "instrument": {
+   "kw": ["violão", "guitarra", "piano", "violino", "viola$", "violoncelo", "tocar bateria", "praticar bateria", "treinar bateria", "aula de bateria", "ukulele", "cavaquinho", "contrabaixo", "tocar baixo", "flauta", "clarinete", "saxofone", "sax$", "trompete", "trombone", "harpa", "sanfona", "acordeão", "tocar teclado", "instrumento", "cantar", "aula de canto", "aquecimento vocal", "escalas", "estudar piano", "estudar violão", "estudar guitarra", "estudar violino", "estudar flauta", "estudar canto", "estudar bateria"],
+   "steps": [
+    "Pegue o instrumento e leve para onde você vai tocar",
+    "Afine",
+    "Marque 15 minutos no timer",
+    "Aqueça por 2 minutos (escalas, acordes ou aquecimento vocal)",
+    "Toque algo que você já sabe e de que gosta",
+    "Escolha um compasso difícil ou uma técnica para treinar",
+    "Toque devagar 5 vezes",
+    "Acelere um pouco",
+    "Termine tocando algo divertido",
+    "Deixe o instrumento em um lugar bem à vista"
+   ]
+  },
+  "fiction": {
+   "kw": ["ficção", "conto$", "contos$", "romance", "novela", "fanfic", "roteiro", "guião", "cena$", "cenas$", "capítulo", "enredo", "trama$", "personage", "historinha", "estória", "escrever uma história", "escrever a história", "escrever história", "escrever minha história", "escrever a minha história", "minha história"],
+   "steps": [
+    "Abra um documento em branco ou um caderno",
+    "Escreva uma frase sobre quem quer o quê",
+    "Anote onde e quando a cena acontece",
+    "Marque 15 minutos no timer",
+    "Escreva a cena mal mesmo, sem parar para corrigir",
+    "Pare no meio de uma frase quando o timer tocar, para ser fácil retomar",
+    "Faça uma pausa curta",
+    "Releia e destaque uma frase de que você gosta",
+    "Anote em uma linha o que acontece depois",
+    "Salve o arquivo"
+   ]
+  },
+  "poem": {
+   "kw": ["poema", "poesia", "haicai", "haiku", "soneto", "cordel", "rap$", "slam$", "spoken word", "rimas$", "versos$", "quadras$"],
+   "steps": [
+    "Escolha uma imagem, um sentimento ou um momento para escrever",
+    "Liste 10 palavras ligadas a isso",
+    "Escreva o primeiro verso sem julgar",
+    "Continue escrevendo versos por 5 minutos",
+    "Leia em voz alta",
+    "Corte os versos mais fracos",
+    "Escolha um título",
+    "Salve"
+   ]
+  },
+  "nonfiction": {
+   "kw": ["não ficção", "não-ficção", "memórias", "biografia", "autobiografia", "artigo", "blog", "post$", "posts$", "newsletter", "diário", "crônica", "resenha", "reportagem", "coluna$", "guia$", "tutorial"],
+   "steps": [
+    "Escreva a ideia principal em uma frase",
+    "Despeje em tópicos tudo o que você sabe",
+    "Anote o que precisa conferir ou pesquisar",
+    "Coloque os tópicos em ordem, como subtítulos",
+    "Escreva primeiro a parte mais fácil",
+    "Preencha a parte seguinte",
+    "Acrescente uma introdução e um final curtos",
+    "Confira os fatos e inclua as fontes",
+    "Leia tudo uma vez e salve"
+   ]
+  },
+  "bookwrite": {
+   "kw": ["escrever um livro", "escrever o livro", "escrever livro", "escrever meu livro", "escrever o meu livro", "escrevendo um livro", "escrevendo meu livro", "meu livro", "o meu livro"],
+   "steps": [
+    "Escreva em uma frase sobre o que é o livro",
+    "Liste as partes ou os capítulos principais, uma linha para cada",
+    "Escolha um capítulo para começar, não precisa ser o primeiro",
+    "Marque 20 minutos no timer",
+    "Escreva sem corrigir até o timer tocar",
+    "Anote onde você parou e o que vem depois",
+    "Salve o arquivo com um nome claro",
+    "Coloque na agenda a próxima sessão de escrita"
+   ]
+  },
+  "art": {
+   "kw": ["desenh", "pintar", "pintura", "esboç", "ilustr", "arte$", "quadrinhos", "banda desenhada", "hq$", "tirinha", "mangá", "rabisc", "aquarela", "aguarela", "retrato", "caderno de desenho"],
+   "steps": [
+    "Pegue o papel, a tela ou o tablet e os materiais",
+    "Escolha um tema ou desenhe o que está na sua frente",
+    "Faça um rabisco de aquecimento por 2 minutos",
+    "Esboce as formas grandes com traço leve",
+    "Acrescente os detalhes principais",
+    "Acrescente cor ou sombra",
+    "Afaste-se um pouco e procure uma coisa para ajustar",
+    "Assine e coloque a data",
+    "Lave os pincéis e guarde tudo"
+   ]
+  },
+  "video": {
+   "kw": ["vídeo", "youtube", "vlog", "filmar", "filmagem", "tiktok", "reels", "reel$", "podcast", "episódio", "animação", "curta-metragem", "curta metragem", "live$"],
+   "steps": [
+    "Escreva em uma frase sobre o que é",
+    "Liste as cenas ou os pontos que você vai falar",
+    "Prepare a câmera, o telefone ou o microfone e teste o som",
+    "Grave a primeira cena ou o primeiro ponto",
+    "Grave o resto, um de cada vez",
+    "Importe os arquivos",
+    "Faça um primeiro corte",
+    "Acrescente títulos e música",
+    "Exporte e assista ou ouça uma vez",
+    "Publique ou salve"
+   ]
+  },
+  "craft": {
+   "kw": ["tricô", "tricot", "crochê", "costur", "coser$", "bordar", "bordado", "artesanato", "trabalhos manuais", "cerâmica", "origami", "patchwork", "scrapbook", "macramê", "marcenaria", "carpintaria", "bainha", "pregar um botão", "pregar o botão", "pregar botão", "miçanga"],
+   "steps": [
+    "Pegue os materiais e o molde ou a receita",
+    "Libere um espaço com boa luz",
+    "Leia a próxima parte do molde ou do plano",
+    "Marque 20 minutos no timer",
+    "Trabalhe só nessa parte",
+    "Marque onde você parou",
+    "Guarde os fios soltos e as ferramentas"
+   ]
+  },
+  "taxes": {
+   "kw": ["imposto", "imposto de renda", "irpf", "irs$", "iva$", "declarar", "declaraç", "receita federal", "portal das finanças", "tribut", "restituição", "reembolso do irs", "malha fina"],
+   "steps": [
+    "Descubra o prazo e anote",
+    "Crie uma pasta para os papéis dos impostos",
+    "Junte os comprovantes de rendimentos (salários, recibos, extratos)",
+    "Junte os recibos das despesas que você pode deduzir",
+    "Entre no site ou no programa da declaração",
+    "Preencha seus dados pessoais",
+    "Informe seus rendimentos",
+    "Informe as deduções",
+    "Revise o resumo",
+    "Envie e guarde o comprovante"
+   ]
+  },
+  "bills": {
+   "kw": ["contas$", "conta de", "conta da", "boleto", "fatura", "factura", "aluguel", "aluguer", "renda$", "pagar", "pagamento", "app do banco", "extrato", "transferência", "pix$", "mb way", "mbway", "orçamento", "finanças", "dinheiro", "dívida", "condomínio", "mensalidade", "prestaç"],
+   "steps": [
+    "Abra o app do banco ou a conta a pagar",
+    "Liste o que vence e as datas",
+    "Escolha a que vence primeiro",
+    "Pague",
+    "Salve o comprovante ou tire um print",
+    "Faça a próxima",
+    "Crie lembretes para os próximos vencimentos"
+   ]
+  },
+  "paperwork": {
+   "kw": ["formulário", "papelada", "burocracia", "documento", "passaporte", "visto$", "carteira de motorista", "carta de condução", "cnh$", "habilitação", "rg$", "cpf$", "identidade", "cartão de cidadão", "segunda via", "seguro", "sinistro", "requerimento", "certidão", "cartório", "inscrição", "matrícula", "renovar", "preencher", "contrato"],
+   "steps": [
+    "Encontre o formulário ou o site",
+    "Leia quais documentos são pedidos",
+    "Junte esses documentos em um só lugar",
+    "Preencha as partes fáceis (nome, endereço, datas)",
+    "Preencha a seção seguinte",
+    "Anote as perguntas que você não sabe responder e pesquise",
+    "Confira uma vez",
+    "Envie pela internet ou pelo correio",
+    "Guarde uma cópia ou o comprovante"
+   ]
+  },
+  "job": {
+   "kw": ["emprego", "vaga$", "vagas$", "currículo", "curriculum", "cv$", "candidat", "entrevista", "linkedin", "processo seletivo", "estágio", "montar o currículo", "montar currículo", "montar meu currículo", "montar o meu currículo", "procurar trabalho", "arrumar emprego", "arrumar um emprego", "arrumar trabalho", "arrumar um trabalho", "arranjar emprego", "arranjar um emprego", "arranjar trabalho", "arranjar um trabalho"],
+   "steps": [
+    "Abra o anúncio da vaga e o seu currículo lado a lado",
+    "Destaque as 3 coisas que mais procuram",
+    "Atualize o currículo para mostrar essas 3 coisas",
+    "Escreva uma apresentação curta, em 3 parágrafos pequenos",
+    "Preencha o formulário de candidatura",
+    "Anexe o currículo",
+    "Leia uma vez e envie",
+    "Anote a data em que você se candidatou"
+   ]
+  },
+  "groceries": {
+   "kw": ["mercado", "supermercado", "hipermercado", "mercearia", "compras$", "feira$", "hortifruti", "sacolão", "padaria", "açougue", "talho$", "mantimentos", "comprar comida", "leite", "ovos$", "pão$", "fruta", "legumes", "verdura"],
+   "steps": [
+    "Olhe a geladeira e os armários",
+    "Faça uma lista do que acabou",
+    "Acrescente o que você precisa para as próximas refeições",
+    "Pegue sacolas, chaves e carteira, ou abra o app de entregas",
+    "Pegue os itens da lista",
+    "Pague",
+    "Guarde primeiro o que vai na geladeira, depois o resto"
+   ]
+  },
+  "buy": {
+   "kw": ["comprar", "compra$", "encomendar", "encomenda", "adquirir", "presente", "prenda$", "fazer um pedido", "fazer o pedido", "pedir online", "pedir pela internet"],
+   "steps": [
+    "Veja se você já não tem isso em casa",
+    "Decida onde comprar",
+    "Defina um limite de gasto",
+    "Procure na loja ou na internet",
+    "Compre",
+    "Guarde no lugar certo"
+   ]
+  },
+  "cook": {
+   "kw": ["cozinhar", "jantar", "janta$", "almoço", "almoçar", "café da manhã", "pequeno-almoço", "pequeno almoço", "refeiç", "receita", "assar", "bolo", "marmita", "lanche", "sopa", "fazer comida", "fazer a comida", "preparar a comida", "cozer$", "fritar"],
+   "steps": [
+    "Escolha o que você vai fazer",
+    "Veja se tem os ingredientes",
+    "Libere um espaço na bancada",
+    "Separe as panelas e os utensílios",
+    "Lave e corte os ingredientes",
+    "Comece pelo que demora mais para ficar pronto",
+    "Marque o tempo no timer",
+    "Prepare o resto",
+    "Sirva",
+    "Deixe as panelas de molho"
+   ]
+  },
+  "errands": {
+   "kw": ["tarefas de casa", "tarefas da casa", "tarefas domésticas", "tarefas$", "afazeres", "recados", "pendências", "coisas na rua", "resolver coisas", "resolver umas coisas", "coisas pra resolver", "coisas para resolver", "dar umas voltas", "serviço de casa", "serviços de casa", "lida da casa"],
+   "steps": [
+    "Escreva todas as tarefas em uma única lista",
+    "Coloque em uma ordem que faça um só trajeto",
+    "Pegue chaves, carteira, telefone e o que for para entregar",
+    "Faça a primeira",
+    "Risque da lista e faça a próxima",
+    "Volte para casa e guarde as coisas"
+   ]
+  },
+  "exercise": {
+   "kw": ["exercício$", "exercícios$", "exercício físico", "exercícios físicos", "exercícios de alongamento", "exercitar", "treino", "malhar", "academia", "ginásio", "musculação", "correr", "corrida", "caminhar", "caminhada", "yoga", "ioga", "pilates", "alongar", "alongamento", "nadar", "natação", "pedalar", "ginástica"],
+   "steps": [
+    "Vista a roupa de treino e calce o tênis",
+    "Encha uma garrafa de água",
+    "Escolha um treino curto ou um percurso",
+    "Aqueça por 3 minutos",
+    "Faça a primeira parte",
+    "Continue até o fim",
+    "Desacelere e alongue o corpo",
+    "Beba água"
+   ]
+  },
+  "pack": {
+   "kw": ["mala$", "malas$", "fazer a mala", "arrumar a mala", "arrumar as malas", "arrumar mala", "arrumar minha mala", "arrumar a minha mala", "bagagem", "mochila", "viagem", "viajar", "férias", "roteiro de viagem", "roteiro da viagem", "mudança$", "mudar de casa", "empacotar", "encaixotar"],
+   "steps": [
+    "Pegue a mala ou as caixas",
+    "Faça uma lista rápida (roupas, higiene, carregadores, documentos)",
+    "Coloque primeiro as roupas",
+    "Coloque os itens de higiene",
+    "Coloque carregadores e eletrônicos",
+    "Deixe passaporte, passagens ou chaves em um único bolso",
+    "Confira a lista uma vez",
+    "Deixe a mala perto da porta"
+   ]
+  },
+  "presentation": {
+   "kw": ["apresentaç", "apresentar o trabalho", "apresentar trabalho", "apresentar o projeto", "slide", "diapositivo", "powerpoint", "ppt$", "pitch", "palestra", "seminário", "montar a apresentaç", "montar uma apresentaç", "montar apresentaç", "montar os slides", "montar slides", "montar o powerpoint"],
+   "steps": [
+    "Escreva a mensagem principal em uma frase",
+    "Liste de 3 a 5 pontos que sustentam essa mensagem",
+    "Faça um slide por ponto, só com os títulos",
+    "Acrescente poucas palavras ou uma imagem em cada slide",
+    "Faça um slide de abertura e um de encerramento",
+    "Ensaie em voz alta uma vez",
+    "Ajuste as partes que ficaram travadas",
+    "Salve e envie ou publique"
+   ]
+  },
+  "garden": {
+   "kw": ["jardim", "jardinagem", "quintal", "grama$", "gramado", "relva", "ervas daninhas", "mato$", "planta$", "plantas$", "plantar$", "regar", "horta", "podar", "canteiro", "vasos$", "adubar", "capinar"],
+   "steps": [
+    "Calce sapatos e coloque luvas",
+    "Pegue as ferramentas",
+    "Escolha um pedaço para começar",
+    "Cuide desse pedaço",
+    "Passe para o próximo pedaço",
+    "Ensaque os restos",
+    "Guarde as ferramentas"
+   ]
+  },
+  "car": {
+   "kw": ["revisão do carro", "levar o carro", "carro na oficina", "carro para a revisão", "carro pra revisão", "carro na revisão", "oficina", "mecânico", "troca de óleo", "trocar o óleo", "mudar o óleo", "óleo do carro", "pneu", "inspeção", "vistoria", "seguro do carro", "seguro auto", "lavar o carro", "calibrar", "alinhamento", "balanceamento", "licenciamento"],
+   "steps": [
+    "Encontre os documentos do carro ou o número da oficina",
+    "Decida o que precisa ser feito",
+    "Marque um horário ou compre o material",
+    "Tire o lixo de dentro do carro",
+    "Faça o serviço ou leve o carro",
+    "Anote a data e quando será a próxima vez"
+   ]
+  },
+  "booking": {
+   "kw": ["reservar", "reserva$", "reservas$", "marcar hotel", "marcar um hotel", "marcar voo", "marcar um voo", "marcar mesa", "marcar uma mesa", "voo$", "voos$", "hotel", "hospedagem", "alojamento", "airbnb", "passagem", "passagens", "bilhete", "ingresso"],
+   "steps": [
+    "Decida as datas e quanto você pode gastar",
+    "Abra dois sites ou apps para comparar",
+    "Escolha a opção que se encaixa melhor",
+    "Preencha seus dados",
+    "Pague",
+    "Guarde a confirmação",
+    "Coloque na sua agenda"
+   ]
+  },
+  "fix": {
+   "kw": ["consert", "arranjar", "reparar", "reparo", "reparaç", "remendar", "quebrad", "avariad", "estragad", "instalar", "montar", "substituir", "trocar a lâmpada", "trocar lâmpada", "mudar a lâmpada", "torneira", "vazamento", "pingando", "entupid", "desentupir", "pendurar", "parafus", "arrumar a torneira", "arrumar o chuveiro"],
+   "steps": [
+    "Olhe o que está errado e descreva em uma linha",
+    "Procure um tutorial ou um vídeo",
+    "Junte as ferramentas e as peças",
+    "Libere um espaço para trabalhar",
+    "Faça o primeiro passo do tutorial",
+    "Faça os passos seguintes, um de cada vez",
+    "Teste para ver se funciona",
+    "Guarde as ferramentas"
+   ]
+  },
+  "plan": {
+   "kw": ["planej", "planear", "planeamento", "plano$", "planos$", "organizar", "organizaç", "agendar", "marcar", "cronograma", "festa", "evento", "casamento", "aniversário", "churrasco", "chá de bebê", "reunião", "encontro"],
+   "steps": [
+    "Escreva em uma frase o que você está planejando",
+    "Escolha uma data ou um prazo",
+    "Liste tudo o que precisa acontecer",
+    "Coloque a lista em ordem",
+    "Faça o primeiro item agora",
+    "Coloque o resto na agenda",
+    "Avise quem precisa saber"
+   ]
+  }
+ },
+ "examples": {
+  "shower": ["tomar banho", "tomar um banho rapido", "tomar uma ducha"],
+  "getready": ["me arrumar para o trabalho", "ir dormir", "escovar os dentes"],
+  "dishes": ["lavar a louça", "limpar a cozinha", "esvaziar a máquina de lavar louça"],
+  "laundry": ["lavar a roupa", "estender a roupa no varal", "botar roupa pra lavar"],
+  "room": ["arrumar meu quarto", "limpar a casa", "organizar o armario"],
+  "bathroom": ["limpar o banheiro", "lavar a casa de banho", "esfregar a privada"],
+  "vacuum": ["aspirar a sala", "passar pano no chão", "varrer a casa"],
+  "email": ["responder emails", "limpar a caixa de entrada", "mandar um e-mail pro chefe"],
+  "message": ["responder as mensagens", "responder a Ana no whatsapp", "mandar mensagem pra minha irmã"],
+  "call": ["marcar consulta no dentista", "agendar médico", "marcar veterinário pro gato"],
+  "phonecall": ["ligar para a mãe", "telefonar para o banco", "ligar pra vó"],
+  "essay": ["escrever a redação", "fazer o relatório", "terminar o tcc"],
+  "homework": ["fazer o dever de casa", "terminar os trabalhos de casa de matemática", "lição de casa de portugues"],
+  "study": ["estudar para a prova", "rever a matéria de biologia", "estudar pro exame de amanhã"],
+  "read": ["ler um livro", "ler 20 páginas", "ler o capitulo 4 de historia"],
+  "song": ["escrever uma música", "escrever a letra da minha canção", "terminar o refrão"],
+  "compose": ["compor música", "fazer um beat", "criar uma melodia no garageband"],
+  "instrument": ["praticar violão", "tocar piano", "treinar guitarra"],
+  "fiction": ["escrever um conto", "trabalhar no meu romance", "terminar o capítulo 3"],
+  "poem": ["escrever um poema", "escrever um haicai", "fazer uma poesia pra minha mãe"],
+  "nonfiction": ["escrever um post para o blog", "escrever minhas memórias", "terminar o artigo"],
+  "bookwrite": ["escrever um livro", "começar a escrever o meu livro", "continuar meu livro"],
+  "art": ["desenhar um retrato", "pintar um quadro", "fazer uma ilustração"],
+  "video": ["fazer um vídeo pro YouTube", "gravar um episódio do podcast", "editar o video do tiktok"],
+  "craft": ["tricotar um cachecol", "pregar um botão", "terminar o croche"],
+  "taxes": ["fazer a declaração do imposto de renda", "entregar o IRS", "declarar imposto"],
+  "bills": ["pagar as contas", "pagar o aluguel", "ver a fatura do cartão"],
+  "paperwork": ["renovar o passaporte", "preencher o formulário do seguro", "tirar a segunda via do RG"],
+  "job": ["me candidatar a uma vaga", "atualizar o currículo", "procurar emprego"],
+  "groceries": ["fazer compras no mercado", "ir ao supermercado", "comprar pão e leite"],
+  "buy": ["comprar um presente para o pai", "encomendar um carregador novo", "comprar pilhas"],
+  "cook": ["fazer o jantar", "assar um bolo", "cozinhar o almoço de amanhã"],
+  "errands": ["resolver coisas na rua", "fazer as tarefas de casa", "tratar dos recados"],
+  "exercise": ["sair para correr", "ir à academia", "ir ao ginásio"],
+  "pack": ["fazer a mala", "arrumar as malas para a viagem", "empacotar as coisas da mudança"],
+  "presentation": ["fazer uma apresentação", "preparar os slides", "montar os slides do seminário"],
+  "garden": ["cortar a grama", "regar as plantas", "arrancar as ervas daninhas"],
+  "car": ["levar o carro para a revisão", "trocar os pneus", "fazer a inspeção do carro"],
+  "booking": ["reservar um voo para Roma", "reservar uma mesa", "reservar hotel em Lisboa"],
+  "fix": ["consertar a torneira que está pingando", "montar a estante", "trocar a lâmpada da cozinha"],
+  "plan": ["planejar a festa de aniversário", "organizar o casamento", "marcar uma reunião com a equipe"]
+ },
+ "compound": [
+  ["arrumar meu quarto e ligar para a mãe, depois pagar o aluguel", 3],
+  ["lavar a roupa e a louça", 2],
+  ["comprar sal e pimenta", 1],
+  ["estudar para a prova e depois tomar banho", 2],
+  ["comprar pão e leite", 1]
+ ]
+}

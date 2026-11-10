@@ -1,0 +1,295 @@
+{
+ "meta": {
+  "code": "fr",
+  "name": "Français",
+  "html_lang": "fr",
+  "lang_offer": "Lire cette page en français"
+ },
+ "common": {
+  "nav_home": "Accueil",
+  "nav_contact": "Contact",
+  "lang_label": "Langue",
+  "skip_link": "Aller au contenu",
+  "dismiss": "Fermer",
+  "credit": "Ce site a été créé par Claude AI, à partir de prompts rédigés par Owen. Si tu vois une erreur ou si tu aimerais améliorer le site, n’hésite pas à envoyer un message. Merci ❤️",
+  "credit_link": "Prendre contact",
+  "clear_data": "Effacer mes données sur cet appareil",
+  "clear_confirm": "Vraiment tout effacer ? Clique encore une fois",
+  "contact_title": "Prendre contact",
+  "contact_intro": "Tu as repéré une erreur, tu as une idée ou tu veux aider à améliorer {site} ? Envoie un message ci-dessous. Laisse ton e-mail si tu souhaites une réponse.",
+  "f_name": "Ton nom",
+  "optional": "(facultatif)",
+  "f_email": "E-mail",
+  "f_email_hint": "(facultatif, seulement si tu veux une réponse)",
+  "f_topic": "C’est à quel sujet ?",
+  "topic_mistake": "J’ai trouvé une erreur",
+  "topic_idea": "J’ai une idée pour améliorer le site",
+  "topic_broken": "Quelque chose ne fonctionne pas",
+  "topic_translation": "Une traduction pourrait être meilleure",
+  "topic_other": "Autre chose",
+  "f_message": "Message",
+  "send": "Envoyer le message",
+  "sending": "Envoi en cours…",
+  "err_empty": "Écris d’abord un message.",
+  "err_send": "Oups, le message n’est pas parti. Vérifie ta connexion et réessaie.",
+  "hp": "Laisse ce champ vide",
+  "thanks_title": "Merci",
+  "thanks_body": "Ton message a bien été envoyé. Merci d’aider à améliorer {site}.",
+  "back": "Retour à {site}"
+ },
+ "adhd": {
+  "title": "One Step Now : outils TDAH pour découper une tâche en mini-étapes",
+  "meta_desc": "Kit de concentration gratuit pour le TDAH : découpe une tâche en mini-étapes, n’affiche que la suivante, rends le temps visible. Hors ligne, rien n’est envoyé.",
+  "eyebrow": "Un kit de concentration pour les cerveaux TDAH",
+  "h1_html": "Oublie la montagne entière. <span class=\"mark\">Fais un seul pas, maintenant.</span>",
+  "lede": "Découpe une tâche en toutes petites étapes, ne regarde que celle qui est devant toi et rends le temps visible. Tout reste dans ce navigateur ; rien n’est envoyé nulle part.",
+  "now_label": "Maintenant",
+  "done_btn": "C’est fait, étape suivante",
+  "skip_btn": "Passer pour l’instant",
+  "smaller_btn": "Trop gros ? Ajoute d’abord une étape plus petite",
+  "smaller_ph": "Quel est le tout premier geste, le plus petit possible ?",
+  "today": "Étapes terminées aujourd’hui : {n}",
+  "plan_h": "Découpe ta tâche",
+  "new_task": "Commencer une nouvelle tâche",
+  "new_task_confirm": "Effacer les étapes ? Clique encore une fois",
+  "big_task": "La grosse tâche",
+  "task_ph": "ex. : écrire une chanson, ou ranger ma chambre et appeler maman",
+  "split_btn": "Découpe-la pour moi",
+  "sugg_title": "Étapes proposées",
+  "sugg_title_multi": "Étapes proposées · tâches : {n}",
+  "sugg_note": "Créées sur ton appareil. Aucun service d’IA, rien n’est envoyé.",
+  "sugg_empty_title": "Écris d’abord une tâche",
+  "sugg_empty": "Écris ce que tu as à faire dans le champ ci-dessus, par exemple « ranger ma chambre », puis appuie sur le bouton.",
+  "sugg_replace": "Remplacer mes étapes par celles-ci ({n})",
+  "sugg_append": "Ajouter à la fin ({n})",
+  "sugg_use": "Utiliser ces étapes ({n})",
+  "cancel": "Annuler",
+  "own_hint": "Ou écris les tiennes. Chaque étape doit être si petite qu’elle en paraît presque ridicule. « Ouvrir l’ordinateur », ça compte.",
+  "step_label": "Nouvelle étape",
+  "step_ph": "Ajoute une mini-étape, puis appuie sur Entrée",
+  "add": "Ajouter",
+  "save": "Enregistrer",
+  "no_steps": "Aucune étape pour l’instant. Ajoute la première, toute petite, ci-dessus.",
+  "now_empty": "Ajoute une première mini-étape ci-dessous.",
+  "now_alldone": "Tout est fait. Accorde-toi une vraie pause.",
+  "aria_done": "Marquer comme fait : {t}",
+  "aria_delete": "Supprimer : {t}",
+  "aria_edit": "Modifier : {t}",
+  "aria_up": "Monter : {t}",
+  "aria_down": "Descendre : {t}",
+  "timer_h": "Vois le temps passer",
+  "preset": "{n} min",
+  "custom_label": "Durée de ton choix, en minutes",
+  "set": "Régler",
+  "start": "Démarrer",
+  "pause": "Pause",
+  "resume": "Reprendre",
+  "reset": "Remettre à zéro",
+  "ends_at": "Fin à {time}",
+  "times_up": "Temps écoulé. Étire-toi, puis choisis : continuer ou t’arrêter.",
+  "time_left": "Temps restant : {time}",
+  "stuck_h": "Tu n’arrives pas à t’y mettre ?",
+  "starter_btn": "Une autre façon de démarrer",
+  "starters": [
+   "Règle le minuteur sur 2 minutes et promets-toi que tu pourras arrêter dès qu’il sonnera.",
+   "Fais l’étape mal, exprès. Un début brouillon vaut mieux qu’un plan parfait.",
+   "Lève-toi et va à l’endroit où la tâche se passe. L’étape, c’est juste ça.",
+   "Dis à voix haute ce que tu t’apprêtes à faire, comme si tu commentais une émission de cuisine.",
+   "Rends la première étape plus petite. Puis encore plus petite.",
+   "Envoie un message à un proche : « Je m’y mets maintenant. » Savoir que quelqu’un est au courant, ça aide.",
+   "Mets une chanson et travaille seulement jusqu’à ce qu’elle se termine.",
+   "Va d’abord boire un verre d’eau, puis assieds-toi et ouvre ce qu’il faut.",
+   "Commence par la partie la plus intéressante. L’ordre est facultatif.",
+   "Travaille à côté de quelqu’un, sur place ou en visio. Avoir de la compagnie aide à rester sur sa tâche."
+  ],
+  "cheers": [
+   "Bien joué. Ça compte.",
+   "Ce qui est fait n’est plus à faire.",
+   "Tu es sur ta lancée !",
+   "Une chose de moins.",
+   "Regarde comme tu avances.",
+   "Cerveau : récompensé."
+  ],
+  "cheer_added": "Étapes ajoutées. Fais juste la première.",
+  "cheer_skip": "Déplacée à la fin. Zéro culpabilité.",
+  "park_h": "Pour plus tard",
+  "park_p": "Une pensée vient te tirer par la manche en pleine tâche ? Note-la ici et retourne à ce que tu faisais. Tu t’en occuperas plus tard.",
+  "park_label": "Pensée à mettre de côté",
+  "park_ph": "Répondre à Sam, acheter des piles…",
+  "park_btn": "Mettre de côté",
+  "park_empty": "Rien de noté. Tu as la tête libre.",
+  "to_step": "En faire une étape",
+  "clear_all": "Tout effacer",
+  "clear_all_confirm": "Vraiment tout effacer ? Clique encore une fois",
+  "foot_auto": "Les étapes automatiques viennent de règles intégrées pour les tâches courantes (ménage, e-mails, devoirs, factures, appels, chansons, pratique d’un instrument, histoires, dessin et bien d’autres) et d’une méthode générale pour tout le reste. Elles sont créées dans ton navigateur, sans aucun service d’IA : ça marche donc hors ligne et ça ne coûte rien.",
+  "foot_disclaimer_html": "Ceci est un outil d’auto-aide, pas un diagnostic ni un traitement. Si le TDAH te complique la vie au travail, dans tes études ou dans tes relations, un médecin ou un psychologue peut faire une évaluation et voir avec toi les options possibles. <a href=\"https://chadd.org/\">CHADD</a> (chadd.org, site en anglais) propose des informations fondées sur des preuves scientifiques et des groupes de soutien.",
+  "example_task": "Nettoyer la cuisine (exemple : modifie-la ou commence une nouvelle tâche)",
+  "example_steps": [
+   "Mettre une chanson que j’aime",
+   "Jeter tout ce qui va à la poubelle",
+   "Remplir le lave-vaisselle, les assiettes d’abord",
+   "Essuyer le plan de travail à côté de l’évier",
+   "Sortir la poubelle"
+  ],
+  "example_dump": "Répondre à maman pour dimanche"
+ },
+ "ocd": {
+  "title": "Ride the Wave : outils d’auto-aide pour le TOC, basés sur l’EPR",
+  "meta_desc": "Outils gratuits pour le TOC, basés sur l’exposition avec prévention de la réponse (EPR) : surfer sur l’envie, échelle d’exposition, vivre l’incertitude. Privé.",
+  "eyebrow": "Outils d’auto-aide pour le TOC, basés sur l’exposition avec prévention de la réponse (EPR)",
+  "h1_html": "L’envie monte. Rien ne t’oblige à lui obéir. <em>Laisse-la passer.</em>",
+  "lede": "Le TOC se nourrit de rituels et de réassurance. Chaque fois que tu ressens l’anxiété sans faire la compulsion, ton cerveau apprend que tu peux supporter l’incertitude. Ces outils t’aident à t’y entraîner. Tout reste dans ce navigateur.",
+  "cycle_h": "Comment le TOC s’entretient",
+  "cycle": [
+   {
+    "t": "Pensée intrusive",
+    "d": "Un doute, une image ou un « et si… » débarque sans invitation."
+   },
+   {
+    "t": "Anxiété",
+    "d": "Ça paraît urgent et dangereux, même quand tu sais que ça ne l’est probablement pas."
+   },
+   {
+    "t": "Compulsion",
+    "d": "Tu vérifies, tu laves, tu comptes, tu cherches à te faire rassurer ou tu ressasses dans ta tête."
+   },
+   {
+    "t": "Soulagement de courte durée",
+    "d": "L’anxiété retombe un moment, et ton cerveau apprend à redéclencher l’alarme."
+   }
+  ],
+  "cycle_break": "L’EPR casse la boucle à l’étape 3. Tu laisses l’anxiété être là et tu ne fais pas la compulsion. C’est dur au début, et ça devient plus facile avec la pratique.",
+  "surf_h": "Surfe sur une envie",
+  "surf_eyebrow": "Retarde le rituel. Observe la vague.",
+  "surf_p": "Quand surgit l’envie de vérifier, de laver, de compter, de demander ou de recommencer, évalue ton niveau de détresse, puis lance le minuteur et retiens-toi de faire la compulsion. Réévalue toutes les deux minutes environ. Souvent, tu verras la vague atteindre son sommet puis redescendre toute seule. Si elle ne baisse pas aujourd’hui, rester avec elle, ça compte quand même.",
+  "suds_label": "Quel est ton niveau de détresse, là, maintenant ? (de 0 à 10)",
+  "calm": "Calme",
+  "start_surf": "Commencer à surfer",
+  "log": "Enregistrer cette évaluation",
+  "finish": "Terminer",
+  "not_started": "Pas commencé",
+  "checkin": "Deux minutes ont passé. À combien es-tu maintenant ? Déplace le curseur et enregistre.",
+  "started": "C’est parti. Retiens-toi de faire le rituel.",
+  "status_down": "Baisse depuis le début : {n}",
+  "status_up": "C’est monté. Les vagues font ça avant de retomber. Reste avec la vague.",
+  "status_same": "Ça se maintient. Tu es en plein dans l’exercice.",
+  "finished": "Tu as surfé pendant {m} min, de {a} à {b}. C’est ça, l’entraînement.",
+  "again": "Surfer sur une autre envie",
+  "resumed": "Reprise là où tu en étais.",
+  "chart_empty": "Tes évaluations dessineront une vague ici",
+  "chart_aria": "Détresse au fil du temps",
+  "example_wave": "Vague d’exemple. Commence pour dessiner la tienne.",
+  "min_abbr": "min",
+  "past_h": "Vagues passées",
+  "no_waves": "Aucune vague enregistrée pour l’instant.",
+  "hist_row": "{a} → pic {p} → {b} · {m} min",
+  "prompts": [
+   "Remarque l’envie. Nomme-la : « Ça, c’est le TOC. » Tu n’as pas à débattre avec lui.",
+   "Où la sens-tu dans ton corps ? Décris-la comme un bulletin météo.",
+   "Expire lentement. Tu ne cherches pas à faire partir la sensation, juste à la laisser être là.",
+   "« Peut-être que c’est arrivé, peut-être pas. Je choisis de ne pas chercher à le savoir. »",
+   "Chaque minute d’attente est un entraînement. C’est ça, le travail.",
+   "La pensée paraît urgente. L’urgence est une sensation, pas un fait.",
+   "Si c’est encore haut, ce n’est pas un problème. Ton rôle est de rester, pas de te sentir calme.",
+   "Fais quelque chose qui compte pour toi pendant que l’envie est là. Laisse-la t’accompagner."
+  ],
+  "ladder_h": "Construis ton échelle d’exposition",
+  "ladder_eyebrow": "Commence bas, monte doucement",
+  "ladder_p": "Fais la liste des situations qui déclenchent ton TOC et évalue, de 0 à 100, à quel point il serait difficile d’affronter chacune sans le rituel. Commence à t’entraîner autour de 30 à 50, puis monte d’un cran quand une étape te paraît gérable. Répète chaque étape plusieurs fois et baisse son chiffre à mesure qu’elle devient plus facile. Si tu es en thérapie, construis cette échelle avec ton ou ta thérapeute.",
+  "ladder_text_label": "Situation",
+  "ladder_ph": "ex. : sortir de chez moi après avoir vérifié la cuisinière une seule fois",
+  "ladder_rate_label": "Difficulté, de 0 à 100",
+  "add_step": "Ajouter l’étape",
+  "rate_hint": "Difficulté de 0 à 100. L’échelle se trie toute seule, du plus facile au plus difficile.",
+  "rate_added": "Ajoutée. L’échelle se trie toute seule, du plus facile au plus difficile.",
+  "rate_need": "Décris d’abord la situation.",
+  "ladder_empty": "Aucune étape pour l’instant. Ajoute une situation ci-dessus.",
+  "try_next": "À essayer ensuite",
+  "practised_n": "Entraînements : {n}",
+  "not_practised": "Pas encore d’entraînement",
+  "practised_btn": "J’ai fait cet exercice",
+  "remove": "Retirer",
+  "aria_remove": "Retirer : {t}",
+  "aria_rerate": "Difficulté pour : {t}",
+  "example_tag": "(exemple)",
+  "ladder_examples": [
+   "Toucher une poignée de porte et attendre 10 minutes avant de me laver les mains",
+   "Sortir de chez moi après avoir vérifié la cuisinière une seule fois",
+   "Envoyer un e-mail sans le relire",
+   "Garder le doute « Est-ce que j’ai dit quelque chose de blessant ? » sans poser la question"
+  ],
+  "unc_h": "Dis oui à l’incertitude",
+  "unc_p": "Au lieu de répondre au doute, admets qu’il dit peut-être vrai et continue ce que tu faisais. Voici des outils pour le moment où la question surgit.",
+  "phrases": [
+   {
+    "t": "Peut-être que oui, peut-être que non.",
+    "d": "La réponse la plus courte à n’importe quel doute. Puis continue."
+   },
+   {
+    "t": "Je veux bien ne pas savoir.",
+    "d": "La certitude n’est pas au menu. Accepter de s’en passer, si."
+   },
+   {
+    "t": "C’est une pensée du TOC. Je n’ai pas à la résoudre.",
+    "d": "Lui coller une étiquette met un peu de distance entre elle et toi."
+   },
+   {
+    "t": "C’est possible. Je vivrai avec.",
+    "d": "Quand tu acquiesces, le doute n’a plus personne contre qui se battre."
+   },
+   {
+    "t": "Je peux ressentir de l’anxiété et le faire quand même.",
+    "d": "L’anxiété et l’action peuvent partager le même instant."
+   },
+   {
+    "t": "Merci, cerveau. C’est noté.",
+    "d": "Traite l’alarme comme un détecteur de fumée qui se déclenche quand tu fais griller du pain."
+   },
+   {
+    "t": "Je prends le risque.",
+    "d": "Tout le monde vit avec de petits risques. Toi aussi, maintenant."
+   },
+   {
+    "t": "Les pensées ne sont pas des faits, et pas des projets non plus.",
+    "d": "Avoir une pensée effrayante ne la rend pas vraie et ne veut pas dire que tu la souhaites."
+   },
+   {
+    "t": "Si c’est important, je le saurai plus tard. Pas maintenant.",
+    "d": "Remettre le rituel à plus tard l’affaiblit."
+   }
+  ],
+  "phrase_btn": "Afficher d’autres phrases",
+  "trap_h": "Repère les compulsions cachées",
+  "trap_p": "Certains rituels se passent dans la tête ou ressemblent à des habitudes ordinaires. Ouvres-en un pour voir quoi essayer à la place.",
+  "traps": [
+   {
+    "t": "Chercher à se faire rassurer",
+    "d": "« C’est sûr que j’ai fermé à clé ? » soulage quelques minutes et rend le doute suivant plus bruyant. Essaie : « Je remarque que j’ai envie qu’on me rassure. Je vais laisser la question en suspens. » Dis à tes proches qu’ils peuvent refuser de répondre, avec douceur."
+   },
+   {
+    "t": "Faire des recherches en ligne sur sa peur",
+    "d": "Chercher une certitude, c’est vérifier sous une autre forme. Ferme l’onglet, évalue ta détresse et surfe sur la vague avec l’outil plus haut."
+   },
+   {
+    "t": "Tout repasser dans sa tête",
+    "d": "Se repasser une conversation ou un souvenir pour prouver que rien de grave n’est arrivé, c’est un rituel. Nomme-le, « je suis en train de tout repasser », et ramène ton attention sur ce qui est devant toi."
+   },
+   {
+    "t": "Éviter les déclencheurs",
+    "d": "L’évitement rétrécit ta vie et garde la peur intacte. Les situations que tu évites sont de bonnes candidates pour ton échelle."
+   },
+   {
+    "t": "Neutraliser les pensées",
+    "d": "Avoir une « bonne » pensée pour en annuler une « mauvaise » entretient le cycle. Laisse la pensée intrusive rester là. Les pensées ne sont pas des actes, et en avoir une ne dit rien de qui tu es."
+   },
+   {
+    "t": "Utiliser cette page comme un rituel",
+    "d": "Si tu te surprends à enregistrer ou à relire ici pour obtenir une certitude, c’est aussi une compulsion. Ferme la page et reprends le cours de ta journée."
+   }
+  ],
+  "help_h": "Trouve un vrai soutien",
+  "help_p1_html": "Ces outils accompagnent un traitement ; ils ne le remplacent pas. L’EPR avec un thérapeute formé à cette approche, et parfois des médicaments, aident la plupart des personnes qui ont un TOC à aller beaucoup mieux. L’<a href=\"https://iocdf.org/find-help/\">annuaire de l’International OCD Foundation</a> (iocdf.org, site en anglais) recense des thérapeutes spécialistes du TOC.",
+  "help_p2_html": "Si tu es en crise ou si tu penses à te faire du mal, appelle tout de suite le numéro d’urgence de ton pays ou une ligne d’écoute. <a href=\"https://findahelpline.com/\">Find A Helpline</a> (findahelpline.com) recense des lignes d’écoute gratuites, pays par pays.",
+  "contact_note": "Ce formulaire n’est pas un service d’urgence ni de soutien, et il est lu par une seule personne, qui n’est pas thérapeute. Merci de ne pas y mettre d’informations de santé privées. Si tu es en crise, appelle le numéro d’urgence de ton pays."
+ }
+}

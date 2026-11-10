@@ -1,0 +1,13 @@
+<a class="skip" href="#main">{{common.skip_link}}</a>
+<div class="offer" id="langOffer" hidden><a id="langOfferLink" href="#"></a><button type="button" id="langOfferX" aria-label="{{common.dismiss}}">×</button></div>
+<nav class="topnav" aria-label="{{site.name}}">
+  <a class="brand" href="{{p.home}}">{{site.name}}</a>
+  <span class="navlinks">
+    <a href="{{p.home}}"{{{page.cur_home}}}>{{common.nav_home}}</a>
+    <a href="{{p.contact}}"{{{page.cur_contact}}}>{{common.nav_contact}}</a>
+    <details class="lang" id="langMenu">
+      <summary><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.800 0 18M12 3c-3 3.200-3 14.800 0 18"/></svg><span class="vh">{{common.lang_label}}: </span>{{meta.name}}</summary>
+      <ul>{{{page.lang_links}}}</ul>
+    </details>
+  </span>
+</nav>
